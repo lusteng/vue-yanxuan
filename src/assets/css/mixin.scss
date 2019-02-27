@@ -1,0 +1,27 @@
+$white: #fff;
+$black: #333;
+$yx_theme: #b4282d;
+
+
+@mixin block($width, $height){
+	width: $width;
+	height: $height;
+	display: inline-block;
+}
+
+@mixin flex($justify: space-between, $align: center){
+	display: flex;
+	justify-content:$justify;
+	align-items: $align; 
+} 
+
+
+/** position **/
+@mixin posFixed($zIndex: 1, $top: 0, $left: 0){
+	position: fixed;
+	top: $top;
+	left: $left; 
+	z-index: $zIndex;
+}
+ 
+

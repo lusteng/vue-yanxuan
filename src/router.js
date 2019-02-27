@@ -1,18 +1,19 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Home from "./page/Home.vue";
+import Index from "@page/index"; 
+
 
 Vue.use(Router);
 
 export default new Router({
   mode: "history",
   base: process.env.BASE_URL,
-  routes: [
+  routes: [ 
     {
       path: "/",
-      name: "home",
-      component: Home
-    },
+      name: "index",
+      component: Index
+    }, 
     {
       path: "/about",
       name: "about",
@@ -21,6 +22,16 @@ export default new Router({
       // which is lazy-loaded when the route is visited.
       component: () =>
         import(/* webpackChunkName: "about" */ "./page/About.vue")
+    },
+    {
+      path: "/login",
+      name: "login",
+      component: () =>
+        import("@page/login")
+    },
+    {
+      path: "*",
+      redirect: "/404"
     }
   ]
 });
