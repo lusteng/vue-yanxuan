@@ -13,4 +13,41 @@ module.exports = function(app){
         //将json传入 Mock.mock 方法中，生成的数据返回给浏览器
         res.json(Mock.mock(json));
     });
+    
+    app.get('/items', function(req, res){
+        let 
+            json = util.getJsonFile(`./indexPage_categoryGoods.json`);
+        res.json(Mock.mock(json)); 
+    })
+
+    
+    app.get('/channels', function (req, res) { 
+        let 
+            json = util.getJsonFile(`./indexPage_channels.json`);
+        res.json(Mock.mock(json));
+    });
+
+    app.get('/hotSalls', function(req, res){
+        let 
+            json = util.getJsonFile(`./indexPage_hotSellProduct.json`);
+        res.json(Mock.mock(json)); 
+    })
+
+    app.get('/populars', function(req, res){
+        let 
+            json = util.getJsonFile(`./indexPage_popularRecommend.json`);
+        res.json(Mock.mock(json)); 
+    })
+
+    app.get('/arrival', function(req, res){
+        let 
+            json = util.getJsonFile(`./indexPage_arrivals.json`);
+        res.json(Mock.mock(json)); 
+    })
+
+    app.get('/categoryGoods', function(req, res){
+        let 
+            json = util.getJsonFile(`./indexPage_categoryGoods.json`);
+        res.json(Mock.mock(json)); 
+    }) 
 }

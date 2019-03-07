@@ -12,12 +12,12 @@ module.exports = {
     chainWebpack: (config)=>{
         config.resolve.alias
             .set('@', resolve('src'))
-            .set('@page', resolve('src/page'))
+            .set('__page__', resolve('src/page'))
             .set('assets',resolve('src/assets'))
             .set('components',resolve('src/components'))
             .set('layout',resolve('src/layout'))
             .set('base',resolve('src/base'))
-            .set('static',resolve('src/static'))
+            .set('static',resolve('static'))
     }, 
 }
  

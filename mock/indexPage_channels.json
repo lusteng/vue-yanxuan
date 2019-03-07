@@ -1,0 +1,51 @@
+{
+    "errCode": 0,
+    "data": [
+        {
+            "name": "居家生活",
+            "picUrl": "http://yanxuan.nosdn.127.net/fede8b110c502ec5799702d5ec824792.png",
+            "sequen": 1
+        },
+        {
+            "name": "服饰鞋包",
+            "picUrl": "http://yanxuan.nosdn.127.net/fb9dde0c1593536c18c8e12b6f49eb17.png",
+            "sequen": 2
+        },
+        {  
+            "name": "美食酒水",
+            "picUrl": "http://yanxuan.nosdn.127.net/d916591adea776351e084016335e5820.png",
+            "sequen": 3
+        },
+        {
+            "name": "个护清洁",
+            "picUrl": "http://yanxuan.nosdn.127.net/6c3bd9d885c818b1f73e497335a68b47.png",
+            "sequen": 4
+        },{
+            "name": "限时购",
+            "picUrl": "http://yanxuan.nosdn.127.net/63682bd2df06963251b2715e20f98a75.png",
+            "sequen": 5
+        },{
+            "name": "母婴亲子",
+            "picUrl": "http://yanxuan.nosdn.127.net/559d2a240ec20b096590a902217009ff.png",
+            "sequen": 6
+        },{
+            "name": "运动旅行",
+            "picUrl": "http://yanxuan.nosdn.127.net/23be40a05926faf2f2a81a08a1c53164.png",
+            "sequen": 7
+        },{
+            "name": "数码家电",
+            "picUrl": "http://yanxuan.nosdn.127.net/fbca8e1f2948f0c09fc7672c2c125384.png",
+            "sequen": 8
+        },{
+            "name": "礼品特色",
+            "picUrl": "http://yanxuan.nosdn.127.net/e83bd330713b66a8d4e8eb0cefed8996.png",
+            "sequen": 9
+        },{
+            "name": "超级会员",
+            "picUrl": "http://yanxuan.nosdn.127.net/51f5a91f10ba745ec68340b98315acf5.png",
+            "sequen": 10
+        }
+    ]
+} 
+
+ 

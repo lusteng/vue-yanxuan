@@ -1,0 +1,37 @@
+{
+    "errCode": 0,
+    "data": {
+        "main_d": {
+            "title": "网易智造R1智能折叠跑步机",
+            "sub_title": "App智跑，家庭私人教练",
+            "picUrl": "http://yanxuan.nosdn.127.net/0d551bd5cee1656127985e1003926672.png?imageView&quality=65&thumbnail=280x280",
+            "tag": "满折",
+            "price":"1200"
+        },
+        "sub_d": [
+            {
+                "title": "酸牛奶",
+                "sub_title": "",
+                "picUrl": "http://yanxuan.nosdn.127.net/605c286e89e479a969c74ed2af3c3f00.png?imageView&quality=65&thumbnail=330x330",
+                "tag": "",
+                "price":"95"
+            },
+            {
+                "title": "智能马桶盖",
+                "sub_title": "",
+                "picUrl": "http://yanxuan.nosdn.127.net/73a065d6fc8c32197b54421808c54788.png?imageView&quality=65&thumbnail=330x330",
+                "tag": "超级闪购",
+                "price":"1199"
+            },
+            {
+                "title": "酸牛奶",
+                "sub_title": "升级款95%白鹅绒秋冬加厚",
+                "picUrl": "http://yanxuan.nosdn.127.net/fb53b989d34b32366f138b5e563ccd0a.png?imageView&quality=65&thumbnail=330x330",
+                "tag": "女王节特惠",
+                "price":"896"
+            }
+        ] 
+    }
+} 
+
+ 

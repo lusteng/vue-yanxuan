@@ -1,0 +1,51 @@
+{
+    "errCode": 0,
+    "data": {
+        "hot": [
+            {
+                "name": "热销榜",
+                "picUrl": "http://yanxuan.nosdn.127.net/3e18c31adcdbb08cc69e46afb46d084e.png?imageView&quality=65&thumbnail=200x200"
+            }, 
+            {
+                "name": "好评榜",
+                "picUrl": "http://yanxuan.nosdn.127.net/a5fd7f29a950a7ef996a4ff49d8e68bb.png?imageView&quality=65&thumbnail=200x200"
+            }
+        ],
+        "ranks": [
+            {
+                "name": "居家生活榜",
+                "picUrl": "http://yanxuan.nosdn.127.net/d78a90f7f496656b79e4559935031958.png?imageView&quality=65&thumbnail=200x200"
+            },
+            {
+                "name": "美食酒水榜",
+                "picUrl": "http://yanxuan.nosdn.127.net/1979054e3a1c8409f10191242165e674.png?imageView&quality=65&thumbnail=200x200"
+            },
+            {
+                "name": "服饰鞋包榜",
+                "picUrl": "http://yanxuan.nosdn.127.net/63c5f749c41c193731ffec74cb846642.png?imageView&quality=65&thumbnail=200x200"
+            },
+            {
+                "name": "个护清洁榜",
+                "picUrl": "http://yanxuan.nosdn.127.net/dfe93936f47b66f4b8a4f1869f0ce828.png?imageView&quality=65&thumbnail=200x200"
+            },
+            {
+                "name": "数码家电榜",
+                "picUrl": "http://yanxuan.nosdn.127.net/da8ba5cd1fb0cfd689ebbe905a330913.png?imageView&quality=65&thumbnail=200x200"
+            },
+            {
+                "name": "礼品特色榜",
+                "picUrl": "http://yanxuan.nosdn.127.net/55425f24345d01992d61a1646325ac94.png?imageView&quality=65&thumbnail=200x200"
+            },
+            {
+                "name": "运动旅行榜",
+                "picUrl": "http://yanxuan.nosdn.127.net/8d7a619fe512f9a100bd3b3ebe20ae9c.png?imageView&quality=65&thumbnail=200x200"
+            },
+            {
+                "name": "母婴亲子榜",
+                "picUrl": "http://yanxuan.nosdn.127.net/914ba4d6fbacf9a4a143f1d10e16eb3f.png?imageView&quality=65&thumbnail=200x200"
+            }
+        ]
+    }
+} 
+
+ 

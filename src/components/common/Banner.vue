@@ -47,7 +47,6 @@
     .banner{
         width: 100%;
         height: 185px;
-        margin-top: 74px; 
         .banner-item{
             img{
                 height: auto;

@@ -1,6 +1,6 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Index from "@page/index"; 
+import Index from "__page__/index";  
 
 
 Vue.use(Router);
@@ -15,6 +15,11 @@ export default new Router({
       component: Index
     }, 
     {
+      path: "/item/:index",
+      name: "items",
+      component: () => import("__page__/items")
+    },
+    {
       path: "/about",
       name: "about",
       // route level code-splitting
@@ -27,7 +32,7 @@ export default new Router({
       path: "/login",
       name: "login",
       component: () =>
-        import("@page/login")
+        import("__page__/login")
     },
     {
       path: "*",

@@ -1,56 +1,68 @@
 <template>
     <div>  
         <TopHeader />  
-        <Banner />  
+        <div class="yx-index">
+            <Banner />
+            <!-- 频道直达   -->
+            <ShoppingChannle />
+            <!-- 新人 -->
+            <FreshmanModule />
+            <!-- 品牌制造商 -->
+            <BrandMade />
+            <!-- 热销榜 -->
+            <HotSell />
+            <!-- 人气推荐 -->
+            <PopularRecommend /> 
+            <!-- 新品首发 -->
+            <FastArrival />
+            <!-- 类目商品展示 -->
+            <CategoryGoodsBlock
+                v-for="(item, index) in cateGoods"
+                :key="index"
+                :categoryData="item"
+            ></CategoryGoodsBlock>
+        </div>
         <Footer />  
-        <!-- 服务 -->
-        <ul class="yx-service">
-            <li>
-                <!-- <i class="iconfont icon-tubiao-"></i> -->
-                <span>网易自营品牌</span>            
-            </li> 
-            <li>
-                <!-- <i class="iconfont icon-65"></i> -->
-                <span>30天无忧退货</span>            
-            </li> 
-            <li>
-                <!-- <i class="iconfont icon-10"></i> -->
-                <span>48小时快速退款</span>            
-            </li> 
-        </ul>
     </div>
 </template>
 
 <script>
+    import { mapGetters } from 'vuex'
     import TopHeader from '@/layout/header/TopHeader'
-    import Footer from '@/layout/footer/Footer'
     import Banner from '@/components/common/Banner'
+    import ShoppingChannle from './ShoppingChannle'
+    import FreshmanModule from './FreshmanModule'
+    import BrandMade from './BrandMade'
+    import HotSell from './HotSell'
+    import PopularRecommend from './PopularRecommend'
+    import FastArrival from './FastArrival' 
+    import CategoryGoodsBlock from '@/components/common/CategoryGoodsBlock'
+    import Footer from '@/layout/footer/Footer'
     export default {
         name: "Index",
         components: {
             TopHeader,
-            Footer,
-            Banner
+            Banner,
+            ShoppingChannle,
+            FreshmanModule,
+            BrandMade,
+            HotSell,
+            PopularRecommend,
+            FastArrival,
+            CategoryGoodsBlock,
+            Footer, 
+        }, 
+        computed: {
+            ...mapGetters(['cateGoods'])
+        },
+        created(){
+            this.$store.dispatch('fetchCategoryGoods')
         }
     }
 </script>
-
-<style lang="scss" scoped>
-    @import '~@/assets/css/mixin';
-    .yx-service{
-        height: 36px;
-        line-height: 36px;
-        padding: 0 15px; 
-        background: $white;
-        @include flex;
-        li{
-            flex: 1;
-            text-align: center;
-            color: $yx_theme;
-            i{
-                vertical-align: top;
-                margin-right: 4px;
-            }
-        }
-    }
+ 
+<style lang="scss">
+    .yx-index{
+        padding: 74px 0 48px 0;
+    } 
 </style>
