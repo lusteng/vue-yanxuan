@@ -5,9 +5,11 @@
                 <swiper-slide
                     v-for="(item, index) in topNavOptions"
                     :key="index"
-                    class="top-nav-item"
+                    :class="{'top-nav-item': true, active: navSelected == index}"
                 >
-                    <div>{{item.name}}</div>
+                    <router-link
+                        :to="index == 0 ? '/' : `/item/${index}`"
+                    >{{item.name}}</router-link>
                 </swiper-slide> 
             </swiper> 
         </div>    
@@ -19,11 +21,12 @@
         </div>
         <div v-show="showCateDropdown" class="cates">
             <p class="cateDropTil">全部频道</p>
-            <div 
+            <router-link 
+                :to="index == 0 ? '/' : `/item/${index}`"
                 v-for="(item, index) in topNavOptions"
                 :key="index"
-                class="cateTag"
-            >{{item.name}}</div>
+                :class="{'cateTag': true, active: navSelected == index}"
+            >{{item.name}}</router-link>
         </div>
         <div  v-show="showCateDropdown" class="cateMask" @touchstart="handleToggleNav"></div>
     </section>    
@@ -45,8 +48,15 @@ export default {
                 freeMode: true,
             },
             showCateDropdown: false,
+            navSelected: this.$route.params.index ? this.$route.params.index : 0
         }
     }, 
+    watch: {
+        '$route'(to, from){  
+            console.log(to.params.index)
+            this.navSelected = to.params.index ? to.params.index : 0 
+        }
+    },
     methods: {
         handleToggleNav(){
             this.showCateDropdown = !this.showCateDropdown; 
@@ -63,7 +73,7 @@ export default {
         .top-nav-list{
             height: 30px;
             line-height: 30px;
-            padding-right: 50px;
+            padding-right: 60px;
             padding-left: 15px;
             .top-nav-item.swiper-slide{
                 display: inline-block;
@@ -71,6 +81,12 @@ export default {
                 padding: 0 8px; 
                 color: $black;
                 width: auto;
+                &.active{
+                    border-bottom: 1px solid $yx_theme;
+                    a{
+                        color: $yx_theme;
+                    }
+                }
                 &:not(:first-child){
                     margin-left: 10px;
                 }
@@ -122,6 +138,10 @@ export default {
                 margin: 0 0 20px 15px; 
                 border: 1px solid #ccc;
                 background: #FAFAFA;
+                &.active{
+                    color: $yx_theme;
+                    border-color: $yx_theme;
+                }
             }
         }
         .cateMask{

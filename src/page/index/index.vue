@@ -59,10 +59,4 @@
             this.$store.dispatch('fetchCategoryGoods')
         }
     }
-</script>
- 
-<style lang="scss">
-    .yx-index{
-        padding: 74px 0 48px 0;
-    } 
-</style>
+</script> 

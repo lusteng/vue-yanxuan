@@ -1,17 +1,19 @@
 <template>
-    <header class="headWraper">
-        <div class="head">
-            <router-link to="/" class="head-logo"></router-link>
-            <div class="head-search ipt">
-                <i class="iconfont icon-sousuo-copy"></i>
-                <span class="placeholder">
-                    搜索商品, 共21424款好物
-                </span>
-            </div>        
-            <router-link to="/login" class="head-login">登录</router-link>
-        </div> 
-        <CategoryNav />
-    </header>
+    <div class="headWrap">
+        <header class="head">
+            <div class="headSearch">
+                <router-link to="/" class="head-logo"></router-link>
+                <div class="head-search ipt">
+                    <i class="iconfont icon-sousuo-copy"></i>
+                    <span class="placeholder">
+                        搜索商品, 共21424款好物
+                    </span>
+                </div>        
+                <router-link to="/login" class="head-login">登录</router-link>
+            </div> 
+            <CategoryNav />
+        </header> 
+    </div>
 </template>
 
 <script>
@@ -26,12 +28,15 @@
 
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
     @import '~@/assets/css/mixin';
-    .headWraper{
+    .headWrap{
+        height: 74px;
+    }
+    .head{
         @include posFixed(999);
         width: 100%; 
-        .head{
+        .headSearch{
             padding:8px 15px;  
             text-align: left;
             background: $white; 

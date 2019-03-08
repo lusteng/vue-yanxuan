@@ -3,16 +3,19 @@
  */
 
 <template>  
-    <div class="yx-card">
-        <div 
-            class="yx-card-pic"
-            :style="{height: boxHeight ? boxHeight : '100px'}"
-        >
-            <img :src="productData.picUrl" />
-            <SpecificationLabel 
-                v-if="productData.spec"
-                outerClass="yx-card-spec"
-            >{{productData.spec}}</SpecificationLabel>
+    <div :class="`yx-card ${outterClass}`">
+        <div class="yx-card-box">
+            <div 
+                class="yx-card-pic"
+                :style="{height: boxHeight ? boxHeight : '100px'}"
+            >
+                <img :src="productData.picUrl" />
+                <SpecificationLabel 
+                    v-if="productData.spec"
+                    outerClass="yx-card-spec"
+                >{{productData.spec}}</SpecificationLabel>
+            </div>
+            <div v-if="productData.desc" class="yx-card-desc text-overflow">{{productData.desc}}</div>
         </div>
         <div class="yx-card-title">
             {{productData.title}}  
@@ -51,9 +54,10 @@ export default {
                     price: "",
                     discount: ""
                 }
-            },
-            boxHeight: String,      
-        }
+            },     
+        },
+        boxHeight: String,
+        outterClass: String,
     }
 
 }
@@ -63,9 +67,11 @@ export default {
     @import '~@/assets/css/mixin';
     .yx-card{
         width: 100%;
+        .yx-card-box{
+            margin-bottom: 6px;
+        }
         .yx-card-pic{
             background: $gyBackgroud;
-            margin-bottom: 6px;
             position: relative; 
             .yx-card-spec{
                 position: absolute;
@@ -75,6 +81,13 @@ export default {
             img{
                 height: 100%;
             }
+        }
+        .yx-card-desc{
+            background: #F1ECE2;
+            color: #9F8A60;
+            padding: 0 5px; 
+            height: 24px;
+            line-height: 24px;
         }
         .yx-card-title{
             @include blackFont(12px);
