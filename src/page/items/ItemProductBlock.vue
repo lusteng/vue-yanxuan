@@ -8,14 +8,14 @@
             <h3>{{itemData.title}}</h3>
             <h4>{{itemData.sub_title}}</h4>
         </div>
-        <div class="cg-list">
+        <div class="cg-list"> 
             <ProductCard 
                 v-for="(item, index) in itemData.list"
                 :key="index"
                 :productData="item"
                 :boxHeight="'170px'"
                 outterClass="goodsBox"
-            />
+            /> 
         </div>
     </section>
 </template>

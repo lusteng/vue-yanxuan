@@ -42,18 +42,19 @@ export default {
         })
     },
     data(){
+        const navSelected = this.$route.params.index ? this.$route.params.index : 0;
         return { 
             swiperOption: {
                 slidesPerView: 'auto',
                 freeMode: true,
+                initialSlide: navSelected,
             },
             showCateDropdown: false,
-            navSelected: this.$route.params.index ? this.$route.params.index : 0
+            navSelected 
         }
     }, 
     watch: {
         '$route'(to, from){  
-            console.log(to.params.index)
             this.navSelected = to.params.index ? to.params.index : 0 
         }
     },

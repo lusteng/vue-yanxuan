@@ -49,5 +49,11 @@ module.exports = function(app){
             index = qs.parse(url.parse(req.url).query)['index'], 
             json = util.getJsonFile(`./itemLists_${index}.json`);
         res.json(Mock.mock(json)); 
+    })  
+    
+    app.get('/detail', function(req, res){
+        let 
+            json = util.getJsonFile(`./goodsDetail.json`);
+        res.json(Mock.mock(json)); 
     })
 }

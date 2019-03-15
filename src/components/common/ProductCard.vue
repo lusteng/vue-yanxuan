@@ -9,7 +9,7 @@
                 class="yx-card-pic"
                 :style="{height: boxHeight ? boxHeight : '100px'}"
             >
-                <img :src="productData.picUrl" />
+                <img v-lazy="productData.picUrl" :key="productData.picUrl" />
                 <SpecificationLabel 
                     v-if="productData.spec"
                     outerClass="yx-card-spec"

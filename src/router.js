@@ -20,6 +20,11 @@ export default new Router({
       component: () => import("__page__/items")
     },
     {
+      path: "/detail/:id",
+      name: "detail",
+      component: () => import("__page__/goodsDetail")
+    },
+    {
       path: "/about",
       name: "about",
       // route level code-splitting
