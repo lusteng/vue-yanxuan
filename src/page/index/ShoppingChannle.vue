@@ -22,9 +22,12 @@
                     v-for="(item, index) in channelDatas"
                     :key="index"
                 >
-                    <img v-lazy="item.picUrl" />
-                    <router-link :to="`/item/${`item.sequen`}`">
-                        {{item.name}}
+                    <!-- TODO：礼品 超级会员页面 -->
+                    <router-link :to="`/item/${item.sequen > 8 ? '' : item.sequen}`">
+                        <img v-lazy="item.picUrl" />
+                        <p class="yx-channle-name">
+                            {{item.name}}
+                        </p> 
                     </router-link>
                 </li>
             </ul>
@@ -72,11 +75,14 @@
             li{
                 width: 20%;
                 padding: 5px 10px 4.5px;
+                a{
+                    @include block(100%, 100%);
+                }
                 img{
                     width: 100%;
                     height: 55px;
                 }
-                a{
+                .yx-channle-name{
                     @include block(100%, 18px);
                     padding-top: 5px;
                     line-height: 18px;

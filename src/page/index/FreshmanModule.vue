@@ -7,14 +7,14 @@
             <div class="fl space-right">
                 <div class="new-bag">
                     <p class="name">新人专享礼包</p>
-                    <img :src="`${new_bag}`" />  
+                    <img v-lazy="`${new_bag}`" />  
                 </div>
             </div>
             <div class="fr space-left">
                 <div class="fresh-module module1 space-bottom">
                     <div class="inner"> 
                         <div class="picWrap">
-                            <img :src="`${well}`"/> 
+                            <img v-lazy="`${well}`"/> 
                             <div class="price">
                                 <p class="line line1">¥524</p>
                                 <p class="line line2">¥699</p>
@@ -29,7 +29,7 @@
                 <div class="fresh-module module2 space-top">
                     <div class="inner">
                         <div class="picWrap">
-                            <img :src="`${group}`"/> 
+                            <img v-lazy="`${group}`"/> 
                             <div class="price">
                                 <p class="line line1">¥1</p>
                                 <p class="line line2">¥14.9</p>

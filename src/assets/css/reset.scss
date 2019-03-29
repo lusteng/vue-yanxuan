@@ -96,4 +96,22 @@ img[lazy=loading] {
 .space-left{padding-left:1.5px;}
 .space-right{padding-right:1.5px;}
 .space-top{padding-top:1.5px;}
-.space-bottom{padding-bottom:1.5px;} 
+.space-bottom{padding-bottom:1.5px;}  
+
+
+
+::-webkit-input-placeholder {
+    color: #999
+}
+
+:-moz-placeholder {
+    color: #999
+}
+
+::-moz-placeholder {
+    color: #999
+}
+
+:-ms-input-placeholder {
+    color: #999
+}

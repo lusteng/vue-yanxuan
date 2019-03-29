@@ -1,5 +1,8 @@
 $white: #fff;
-$black: #333;
+$black: #333; 
+$gray: #d9d9d9;
+$gray_light: #7f7f7f;
+$gray_dark: #666;
 $gyBackgroud: #f5f5f5;
 $yx_theme: #b4282d;
 
@@ -30,6 +33,13 @@ $yx_theme: #b4282d;
 	font-size: $fontSize;
 }
 
+@mixin point($color: $yx_theme, $w: 4px, $h: 4px){
+	content: "";
+    width: $w;
+    height: $h;
+    background: $color;
+    border-radius: 100%; 
+}
 
 
 /**

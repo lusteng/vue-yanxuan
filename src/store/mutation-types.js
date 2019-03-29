@@ -17,3 +17,14 @@ export const FETCH_ITEMS_DATA = 'FETCH_ITEMS_DATA'
 
 //detail
 export const FETCH_GOODS_DETAIL_INFO = 'FETCH_GOODS_DETAIL_INFO'
+
+//recommend 
+export const FETCH_RECOMMEND_GOODS = 'FETCH_RECOMMEND_GOODS'
+
+//comments
+export const FETCH_COMMENTS = 'FETCH_COMMENTS'
+
+export const FETCH_COMMENT_TAGS = 'FETCH_COMMENT_TAGS'
+
+//search
+export const FETCH_SEARCH_KEYWORDS = 'FETCH_SEARCH_KEYWORDS'

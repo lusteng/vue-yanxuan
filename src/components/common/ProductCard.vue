@@ -3,7 +3,10 @@
  */
 
 <template>  
-    <div :class="`yx-card ${outterClass}`">
+    <router-link
+        :class="`yx-card ${outterClass}`"
+        :to="`/detail/${productData.id}`"
+    >
         <div class="yx-card-box">
             <div 
                 class="yx-card-pic"
@@ -30,7 +33,7 @@
         <div v-if="productData.tag" class="yx-card-tag">
             <ProductTag>{{productData.tag}}</ProductTag>
         </div>
-    </div>
+    </router-link>
 </template>
 
 <script>

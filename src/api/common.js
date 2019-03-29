@@ -1,8 +1,8 @@
 import axios from './middleware'
 
 export default {
-    fetchGoodsDetailInfo(params){  
-        let uri = `/detail`
+    fetchRecommendGoods(params){  
+        let uri = `/rcmd?id=${params.id}`
 		return axios.get(uri);
     }, 
 } 

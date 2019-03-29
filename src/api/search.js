@@ -1,8 +1,8 @@
 import axios from './middleware'
 
 export default {
-    fetchGoodsDetailInfo(params){  
-        let uri = `/detail`
+    fetchSearchKeywords(params){  
+        let uri = '/search_kds'
 		return axios.get(uri);
     }, 
 } 

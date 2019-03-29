@@ -25,6 +25,16 @@ export default new Router({
       component: () => import("__page__/goodsDetail")
     },
     {
+      path: "/comment/:id",
+      name: "comment",
+      component: () => import("__page__/comment")
+    },
+    {
+      path: "/search",
+      name: "search",
+      component: () => import("__page__/search")
+    },
+    {
       path: "/about",
       name: "about",
       // route level code-splitting
@@ -40,8 +50,17 @@ export default new Router({
         import("__page__/login")
     },
     {
+      path: "/404",
+      name: "NotFound",
+      component: () =>
+        import("__page__/notFound")
+    },
+    {
       path: "*",
       redirect: "/404"
     }
-  ]
+  ], 
+  scrollBehavior (to, from, savedPosition) {
+    return { x: 0, y: 0 }
+  },
 });

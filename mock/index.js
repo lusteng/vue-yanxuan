@@ -55,5 +55,30 @@ module.exports = function(app){
         let 
             json = util.getJsonFile(`./goodsDetail.json`);
         res.json(Mock.mock(json)); 
+    }) 
+    
+    app.get('/rcmd', function(req, res){
+        let 
+            json = util.getJsonFile(`./rcmd.json`);
+        res.json(Mock.mock(json)); 
+    })
+    
+    app.get('/comments', function(req, res){ 
+        let 
+            page = qs.parse(url.parse(req.url).query)['page'], 
+            json = util.getJsonFile(`./comment_${page}.json`); 
+        res.json(Mock.mock(json)); 
+    })
+    
+    app.get('/tags', function(req, res){
+        let 
+            json = util.getJsonFile(`./comment_tag.json`);
+        res.json(Mock.mock(json)); 
+    })
+    
+    app.get('/search_kds', function(req, res){
+        let 
+            json = util.getJsonFile(`./search_kds.json`);
+        res.json(Mock.mock(json)); 
     })
 }

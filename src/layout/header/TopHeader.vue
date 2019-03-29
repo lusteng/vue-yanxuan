@@ -3,12 +3,12 @@
         <header class="head">
             <div class="headSearch">
                 <router-link to="/" class="head-logo"></router-link>
-                <div class="head-search ipt">
+                <router-link to="/search" class="head-search ipt">
                     <i class="iconfont icon-sousuo-copy"></i>
                     <span class="placeholder">
                         搜索商品, 共21424款好物
                     </span>
-                </div>        
+                </router-link>        
                 <router-link to="/login" class="head-login">登录</router-link>
             </div> 
             <CategoryNav />
@@ -53,7 +53,7 @@
                 background: #ededed;
                 text-align: center;
                 font-size: 14px;
-                color: $black;
+                color: $gray_dark;
             }
             .head-login{ 
                 @include block(35px, 18px);

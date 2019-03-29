@@ -1,0 +1,40 @@
+{
+	"errCode": "0",
+	"data": [{
+		"name": "全部",
+		"strCount": "522",
+		"type": "1"
+	}, {
+		"name": "有图",
+		"strCount": "39",
+		"type": "0"
+	}, {
+		"name": "追评",
+		"strCount": "11",
+		"type": "0"
+	}, {
+		"name": "漂亮精致",
+		"strCount": "53",
+		"type": "0"
+	}, {
+		"name": "质量上乘",
+		"strCount": "40",
+		"type": "0"
+	}, {
+		"name": "显瘦",
+		"strCount": "21",
+		"type": "0"
+	}, {
+		"name": "款式不错",
+		"strCount": "9",
+		"type": "0"
+	}, {
+		"name": "修身",
+		"strCount": "8",
+		"type": "0"
+	}, {
+		"name": "厚重",
+		"strCount": "6",
+		"type": "0"
+	}]
+}
