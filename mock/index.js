@@ -81,4 +81,10 @@ module.exports = function(app){
             json = util.getJsonFile(`./search_kds.json`);
         res.json(Mock.mock(json)); 
     })
+    
+    app.get('/cate_list', function(req, res){
+        let 
+            json = util.getJsonFile(`./cateList.json`);
+        res.json(Mock.mock(json)); 
+    })
 }

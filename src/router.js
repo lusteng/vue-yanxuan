@@ -6,7 +6,7 @@ import Index from "__page__/index";
 Vue.use(Router);
 
 export default new Router({
-  mode: "history",
+  // mode: "history",
   base: process.env.BASE_URL,
   routes: [ 
     {
@@ -33,6 +33,11 @@ export default new Router({
       path: "/search",
       name: "search",
       component: () => import("__page__/search")
+    },
+    {
+      path: "/catelist",
+      name: "catelist",
+      component: () => import("__page__/cateList")
     },
     {
       path: "/about",

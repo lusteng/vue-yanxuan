@@ -8,6 +8,7 @@ module.exports = {
         port: '1212',
         before: require('./mock/index') 
     },
+    publicPath: './',
     lintOnSave: true,
     chainWebpack: (config)=>{
         config.resolve.alias
@@ -19,5 +20,6 @@ module.exports = {
             .set('base',resolve('src/base'))
             .set('static',resolve('static'))
     }, 
+
 }
  

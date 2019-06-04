@@ -28,3 +28,6 @@ export const FETCH_COMMENT_TAGS = 'FETCH_COMMENT_TAGS'
 
 //search
 export const FETCH_SEARCH_KEYWORDS = 'FETCH_SEARCH_KEYWORDS'
+
+//catelist
+export const FETCH_CATE_LIST = 'FETCH_CATE_LIST'

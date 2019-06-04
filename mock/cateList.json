@@ -1,0 +1,951 @@
+{
+    "errCode": 0,
+    "data":{
+        "nav": [{
+            "name": "春夏专区"
+        }, {
+            "name": "爆品专区"
+        }, {
+            "name": "新品专区"
+        }, {
+            "name": "居家生活"
+        }, {
+            "name": "服饰鞋包"
+        }, {
+            "name": "美食酒水"
+        }, {
+            "name": "个护清洁"
+        }, {
+            "name": "母婴亲子"
+        }, {
+            "name": "运动旅行"
+        }, {
+            "name": "数码家电"
+        }, {
+            "name": "全球特色"
+        }],
+        "rightCnt": {
+            "春夏专区":{
+                "banner": "http://yanxuan.nosdn.127.net/dae896d5f00924b63a10080b828a0b9d.jpg?imageView&thumbnail=0x196&quality=75",
+                "list": [{
+                    "til": "",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/c05e78f334384ac3547caad5c130d28a.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "T恤衬衫上新"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/1248603e628b089d25f7c563d16ace4a.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "裤装/裙装"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/69cbd89c63c20660ba261806849c60eb.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "舒适单鞋"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/f1395bd10ecc4ecb1718d0fd6b42d8fc.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "春夏床品"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/3fcfb1acacbb606e970795067d8851ff.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "换季收纳"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/48c981fca8a3f2ab360d6a57078873cb.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "时尚箱包"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/6d944068c4ce0453bc901baa98c542f7.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "百搭外套"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/ca595121ac5ba7245e01d59fd244de1c.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "呵护敏感肌"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/455c5a3ca65051c605b88a0ecd78e1ca.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "运动健身季"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/2d702a204ca6d8e69c867ff181a5ead4.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "春茶正当时"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/40c36ec2f7a4651d574477a1d055805e.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "小长假出游必备"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/ab30946af9ef70f5e4419f5d1b0c49ca.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "春日限定水具厨具"
+                    }]
+                }]
+            },
+            "爆品专区":{
+                "banner": "http://yanxuan.nosdn.127.net/9bdc2f905bc160aa9bb62da3e635edbc.jpg?imageView&thumbnail=0x196&quality=75",
+                "list": [{
+                    "til": "",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/69012752bdd2d01231287113d2c75116.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "居家生活"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/c6afb5a04e0608d84f67dd6f3bfafd5b.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "服饰鞋包"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/e50e1b0267b8116849085f1c27fbf316.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "美食酒水"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/3171bca8356a8b3a65541fe806ac6ab8.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "个护清洁"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/6b82cd6fb07f118aa061d612b1f09011.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "运动旅行"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/dc1db08e5a96c8753144a5eb226cccf1.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "母婴亲子"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/f07ff0b34e8a74593e746af6a6737a86.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "数码家电"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/162a6f77b12549388826baabf14874f9.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "海外精选"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/c6053694489a7fe256938ba40596c408.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "特色周边"
+                    }]
+                }]
+            },
+            "新品专区":{
+                "banner": "http://yanxuan.nosdn.127.net/1b1b6419309cf0c9c0ea71b1246bb703.jpg?imageView&thumbnail=0x196&quality=75",
+                "list": [{
+                    "til": "",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/4240509d81602fc0d419291bc58fff7c.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "居家生活新品"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/ee7f3f5146e74b3949d869e603a2845a.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "服饰鞋包新品"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/612c56c118fb41c84bca7a23a7a7f49c.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "美食酒水新品"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/1a7e826f2cf190e7698bb81f08c1cfab.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "个护清洁新品"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/53855024494cc79a0e783ddbcd2b0d1d.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "运动旅行新品"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/4bcfbb4d2d79303992cc35f47550b50b.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "母婴亲子新品"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/367b5b930a435050caa01525c2467a49.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "数码家电新品"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/9aa926cea6298343f9f0d7fb5b6e5e50.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "礼品特色新品"
+                    }]
+                }]
+            },
+            "居家生活":{
+                "banner": "http://yanxuan.nosdn.127.net/b0eb21c9a00f371114b964f361a1617e.jpg?imageView&thumbnail=0x196&quality=75",
+                "list": [{
+                    "til": "春夏焕新",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/fd0adfc89309d5da20bc49179a5cb24b.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "夏凉限时尝鲜"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/b24b84b6bfc8b6b85053d2d69f28e87d.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "主题床品"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/d29e7a703be1f27129e3c1599ebf9ccf.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "材质精选"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/f5bd0600734c3b7b6401a9505f32761b.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "北欧原木风"
+                    }]
+                }, {
+                    "til": "家纺床品",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/70bc33fe88362578029ecfda35cb7277.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "床品件套"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/b91e14afc5a138df8dbc3236146d24e6.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "被枕垫褥"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/ed7f0f31d740f39534dc28857b224359.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "布艺软装"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/f6eaa94e8920dd4290b9da7c545c8841.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "毛巾浴巾"
+                    }]
+                }, {
+                    "til": "家具家装",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/6e1ea11a9337ac7b7641dc3a8118b558.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "客餐厅家具"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/29a60124243be40301a571e09f8c935c.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "卧室家具"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/c35578aa38ec1c9e55aa74d9e77287a9.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "办公书房家具"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/0d7b44fc2fcafbff8a4af4d84da2cceb.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "小件家具"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/9bc4cae742e2b2709974ad074f897493.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "灯具"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/7d7dab58133cbea60df562020d168855.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "家饰/香氛"
+                    }]
+                }, {
+                    "til": "收纳日用",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/433bc243a31b89cd34a20e32c697f42c.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "收纳"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/36d167a99e28b00dd08aa5e45fd33946.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "晾晒除味"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/3e60f0abe39d4cce0237edffad25c459.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "家庭医疗"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/3e0c0c0f1d842ae66f4fbfd50a571ac1.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "居家拖鞋"
+                    }]
+                }, {
+                    "til": "厨房用品",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/17cc6774b480037536a0f360bf207676.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "锅具"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/641bf2b9fd2593483c57674303f265fb.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "餐厨配件"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/93d056b8b617a18e23f7a6ee8522f427.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "刀剪砧板"
+                    }]
+                }, {
+                    "til": "餐具水具",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/338c77be5f292272e43869bcc52c8229.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "餐具"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/b24d4e3c402ecb4a95d7d6e8d77a93ba.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "水具杯壶"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/6395f0efc4c720dbc1bee012af23e56e.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "茶咖酒具"
+                    }]
+                }, {
+                    "til": "办公用品",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/3741717bb8f55947a10079ea308a44ea.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "文具"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/7d3612daccae482c1c9631992d4ffa44.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "数码办公"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/2963d464664ffc426ed8dffd2f44ba16.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "办公搭配"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/41b1aa9754ea3d7cd29b2c753bdf3dd1.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "办公家具"
+                    }]
+                }, {
+                    "til": "宠物生活",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/8bceb409edbc6415c91095a82d4d3edf.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "宠物食品"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/0dc939d1cb0e437b56e392fbf859f768.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "宠物用品"
+                    }]
+                }]
+            },
+            "服饰鞋包":{
+                "banner": "http://yanxuan.nosdn.127.net/f7b74bdcb165fb0f55d043c662c0a267.jpg?imageView&thumbnail=0x196&quality=75",
+                "list": [{
+                    "til": "当季热销",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/f965978e20ad4d2e16e856733e13359f.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "春夏穿搭"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/291b530e1ceea91f13a5c514ebb0dcec.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "春夏鞋履"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/2dfe4415749809d050385c163e933fc4.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "品质内衣"
+                    }]
+                }, {
+                    "til": "男装",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/b142ad9e67382712330770264a21d239.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "男式T恤/POLO"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/c9e7657aa93b6cd757ea72ceb67abf40.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "男式衬衫"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/c8779939b3d52b961eaa3b325efba84e.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "男式裤装"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/1d128b49081fdd7dc5405df303b5cd10.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "男式牛仔"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/a7562169570757f2877e4fad600e0e2d.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "男式针织衫/卫衣"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/f80dee586771e7d8f2452f09be21ec54.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "男式外套"
+                    }]
+                }, {
+                    "til": "女装",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/cc5b391dd941e540ed0f76a43aac71ef.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "女式T恤/POLO"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/277b33d2ad462e2f4bf0bc66081392ca.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "女式衬衫"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/5e761c2a920fc2d09a097bccaa03ba9c.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "女式裙装"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/c2708f224b01a1d94d298cbce3054023.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "女式裤装"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/57dc7933a5a505417da4c5741c9747ca.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "女式牛仔"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/22051d9a9797e9fb15c46bbaff8c1e23.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "女式针织衫/卫衣"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/d852804e7ff506a531d70e26df73c878.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "女式外套"
+                    }]
+                }, {
+                    "til": "居家内搭",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/bfa4d20fc48d3f9f2b3300dcca859ac9.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "男式家居服"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/9e69343478cf6cf5a85f669f1f76ebf3.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "女式家居服"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/8207750f810aea25e43c423e6de7f943.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "男式内裤"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/b330070087bb87cb7586bd4097aa5a65.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "女式内裤"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/59122ca632ba972f02d8621458da74c4.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "女式内衣"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/8a8329955a6c0e02d511704dfa258bfe.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "男式内衣"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/f850599cb9c99a523b0a88160da80eca.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "袜子"
+                    }]
+                }, {
+                    "til": "鞋靴",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/3c15c76eedf7f07c64b5a5a36c694ae8.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "男鞋"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/84f9feacc5082b398374bfd169395daf.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "女鞋"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/8d68cc5ab84d620a1618fa841d2d1b8b.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "拖鞋"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/eedd6de98be2da9e63608b994035bf14.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "鞋配"
+                    }]
+                }, {
+                    "til": "箱包",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/dbc1125c627b106de9b3d078b97292fb.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "女士包袋"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/e8b034f63aac15198f971503a6370947.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "男士包袋"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/a94a5d317d289f01a93ee093c3975121.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "钱包及小皮件"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/638f6de1cfa9defef5468a952f4efcad.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "行李箱"
+                    }]
+                }, {
+                    "til": "首饰配件",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/f71fb103089059608e6bf5a9a4096033.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "奢华珠宝"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/1eb26c281fa9b7b9e386cfd5ce1d67a7.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "时尚饰品"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/1d653f706fb834937a3d1c29e5725618.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "眼镜墨镜"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/52d449042bc437f6179935624f0c1056.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "腰带腕表"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/22fc713b43b8fe89960fd434b165049f.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "围巾手套"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/1359baf099192f2e58936a4e0c36662e.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "帽子发饰"
+                    }]
+                }, {
+                    "til": "Yessing",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/01f06c74b0591a8da403199cf27dd875.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "Yessing上装"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/6a68adf468654a26d916fcaf5a4ab5bd.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "Yessing下装"
+                    }]
+                }]
+            },
+            "美食酒水":{
+                "banner": "http://yanxuan.nosdn.127.net/75009a909ab58e844e920a114baa0a94.png?imageView&thumbnail=0x196&quality=75",
+                "list": [{
+                    "til": "美味推荐",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/89888b92911969eaf6bb861c3ddc459e.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "春季推荐"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/75f9d549884f9e708dfbbdba9c726d42.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "新品首发"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/a7670f5f9bd6ef65319f5a65d83c245f.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "好味精选"
+                    }]
+                }, {
+                    "til": "休闲零食",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/e682d419fa32860c152c4294bbfca441.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "饼干糕点"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/6941ede8541ceeb432e8da16e200152b.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "小食糖巧"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/18dc905db6c49fbf55b2709078875cdb.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "肉类零食"
+                    }]
+                }, {
+                    "til": "坚果蜜饯",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/46b5256193d052612ecb9fb22d7f4b88.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "坚果炒货"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/fbc5d83b3f2fe2f5dafa3f0e3be5ceb0.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "蜜饯果干"
+                    }]
+                }, {
+                    "til": "冲饮茗茶",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/34fb098f51d8a131376d98312ad29442.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "冲调饮品"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/5ae645e15942dee66e9b526ebac5baf4.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "传统茗茶"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/c73b890aeb06168d3eb0ff6ce0a48505.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "茶包花茶"
+                    }]
+                }, {
+                    "til": "滋补保健",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/f807e204a2a459be044a95f2ba24ddf3.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "滋补食材"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/fb921ff6a6100148ee085eb97accb8f4.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "保健品"
+                    }]
+                }, {
+                    "til": "酒水饮料",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/e91f6569e379a4ea825f523f26c19226.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "酒类"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/3fab499b0a9bd0fd48c927261bcd7633.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "乳品饮料"
+                    }]
+                }, {
+                    "til": "粮油调味",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/b00d13e2447c7d6a007b02007ecdd536.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "方便食品"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/d30b07f8bfb6620bbda467420cd54a57.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "米面粮油"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/94ca88342f7ad6bec9c1840705fadeee.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "南北干货"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/347f676d019e3eebf05c3cc9d81599af.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "调味酱菜"
+                    }]
+                }, {
+                    "til": "生鲜特色",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/3be18dedcb19e76ac89309cb6cb528de.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "果鲜肉蛋"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/0a35aef69fd20761d113f4dc54f4ef2c.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "网易黑猪"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/ed9fda295d73fa8bbd0b9ea428329c1b.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "海外美食"
+                    }]
+                }]
+            },
+            "个护清洁":{
+                "banner": "http://yanxuan.nosdn.127.net/e0c51db10d6da48475f16da157eafe7c.jpg?imageView&thumbnail=0x196&quality=75",
+                "list": [{
+                    "til": "面部护理",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/b56e646fa03e13c4528516061a87750f.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "面部护理"
+                    }]
+                }, {
+                    "til": "个人护理",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/1ac9a9eee6be87a02faaea2e3abfec25.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "洗发护发"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/cf842f27c11f1587ca55d20035c1caba.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "身体护理"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/cef1d1b9f26a01037d705443e585d313.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "口腔护理"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/13d7d7e9fa5f59227f8d5c4be153a957.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "女性护理"
+                    }]
+                }, {
+                    "til": "彩妆香氛",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/5f91b77da79bb06f72973ecbb63c6a64.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "彩妆修容"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/e4c674c49a1a7da65fda7d50e2a32328.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "香水香氛"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/fd2d0e6a87331d18ec67e77cd0f09c5b.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "美妆工具"
+                    }]
+                }, {
+                    "til": "个护电器",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/8efe5dc20ae937faa0f8918678728f3d.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "口腔护理"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/be5d2abe1db1b8efe84bb48250d2899c.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "面部护理"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/539ea18e491d8e0c98152eed1d300f54.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "头发护理"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/fb99d01e5fc25568f97b6cf93012b1d2.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "身体护理"
+                    }]
+                }, {
+                    "til": "纸品清洁",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/921337182aa5a4540ab0632c1fb6ad89.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "纸品湿巾"
+                    }]
+                }, {
+                    "til": "家清卫浴",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/54f2e4f7a9cb17b61804d4d9a8982889.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "家庭清洁"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/45d436cc3d818ee3686b9ceb2a6a71e0.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "餐厨清洁"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/76d4335b8a97c7e2635f66e1b71e4ee1.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "浴室用品"
+                    }]
+                }, {
+                    "til": "衣物护理",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/e40f60a3fe682b3317f3672e374dca0b.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "衣物护理"
+                    }]
+                }, {
+                    "til": "成人用品",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/1adf88cfc906928959e5741e9455790f.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "计生情趣"
+                    }]
+                }]
+            },
+            "母婴亲子":{
+                "banner": "http://yanxuan.nosdn.127.net/9a912f2bc13f0fc71f35916891142046.jpg?imageView&thumbnail=0x196&quality=75",
+                "list": [{
+                    "til": "童装",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/af8e422455e17297e4a74d6c156f78c9.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "上衣"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/b8a7b15e0466feec3ed60a26978cc5a1.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "下装"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/947121bfc571650fd137e9622f65cbe9.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "裙装"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/6df0eecd6458ca390b1cfefeb910f33b.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "爬服连体衣"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/ac3a31a0728288d0560415de7d9d8f44.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "套装礼盒"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/e11619132718de8910ef7b907625c770.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "内衣配搭"
+                    }]
+                }, {
+                    "til": "童鞋",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/739748ccb365b361fd8db49b9d8d17e6.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "儿童鞋"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/7e8267fedff98f53303fe571b921f954.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "学步鞋"
+                    }]
+                }, {
+                    "til": "洗护喂养",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/4221a0e2c1b53b8bc42f99fc20be6bb0.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "洗护"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/9bee0d51d7883a3d36ceffc92b39ffb2.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "喂养"
+                    }]
+                }, {
+                    "til": "孕产妈咪",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/2d96684c2b2dc89df9a001235abd0a6d.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "孕产内衣"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/8ab1afb09ce988aef93263280e2c2097.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "妈咪用品"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/9b7bb9df09836b1cb7e46f9fefb1b2c0.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "孕妈装"
+                    }]
+                }, {
+                    "til": "玩具图书",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/e5ae3db7c2819731768ac50b2ff04d64.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "玩具"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/628b0985bf900d543c3aad06d1f40c46.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "图书"
+                    }]
+                }, {
+                    "til": "童包",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/1f93797e2f77cb0e0ac3c153183d2697.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "防走丢包"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/b1996b02a70e9cb0fa10c5c6ac2891e1.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "书包"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/34f22f5e50082da73d91e07794a9afea.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "其它箱包"
+                    }]
+                }, {
+                    "til": "婴童出行",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/900d88278322b900a37cb8b3c13f64b6.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "安全座椅"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/cbcd57685e875a542374ab32d8da0f60.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "婴儿推车"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/05f1a019eaa349e35ae2364dae79da70.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "童车"
+                    }]
+                }, {
+                    "til": "婴童寝居",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/deb0a49ca6f5eff5f63519ed60866b90.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "婴童床品套件"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/cea5a4dcff63ff83c1f34ca576ccb8d9.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "婴童被枕芯类"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/6261f41bea4aea712910427c2aa95db2.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "抱被睡袋"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/63fd60bf45b47705a6866a442ade46f8.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "儿童家具收纳"
+                    }]
+                }]
+            },
+            "运动旅行":{
+                "banner": "http://yanxuan.nosdn.127.net/7bf73adda703c23e6998e9d60d7b75d4.jpg?imageView&thumbnail=0x196&quality=75",
+                "list": [{
+                    "til": "当季热销",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/ec12ac40fc0dc30608b015a55abc3c8a.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "瑜伽系列"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/2e8953d954d410a2ae2c9321651b85f1.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "出行好物"
+                    }]
+                }, {
+                    "til": "运动男装",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/0ccd33322fda8fc8ad7ccc61b1207afa.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "男式运动T恤/Polo"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/c2871979efcc7ed2d40bc569c7fe70a2.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "男式运动外套/卫衣"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/23cbe4d7d1e3e23d4cc097a67f57b6f9.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "男式运动裤装"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/26f8b210ff0dba32cee3e2f374c47e9b.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "男式户外服装"
+                    }]
+                }, {
+                    "til": "运动女装",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/639008fcca7a3a4ecc9ce5cf9e28506e.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "女式运动T恤/Polo"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/f2ccaf4abc6ecf8dca27b50602a61f6a.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "女式运动内衣"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/dae55f67c05dd3a544c68aaf91e2d2bd.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "女式运动外套/卫衣"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/3715a4db6b8449843105cd819c1b4fb3.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "女式运动裤装"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/a49e9afcf7d91826cbaa86c04c94e94d.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "女式户外服装"
+                    }]
+                }, {
+                    "til": "运动鞋",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/bc18133d4c92124c95c801f5c2582cd2.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "男式运动鞋"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/e2bf3f81c3d0916d2f7a14b6d44dcd56.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "女式运动鞋"
+                    }]
+                }, {
+                    "til": "旅行用品",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/3c37a0b380fdcca237d64552db99cce0.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "行李箱"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/4288cb77825cc390904164cd450d9735.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "出行用品"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/b5950f5984ede4241d12ca14620c321a.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "旅行收纳"
+                    }]
+                }, {
+                    "til": "户外露营",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/c5550b962058846f3e7e45b137d1ca5f.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "露营用品"
+                    }]
+                }, {
+                    "til": "运动健身",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/b594e9981c88258db78e456558278e98.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "运动器材"
+                    }]
+                }, {
+                    "til": "运动配件",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/84464237e022135f1e5e5e1c1c4f9f84.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "运动护具"
+                    }]
+                }]
+            },
+            "数码家电":{
+                "banner": "http://yanxuan.nosdn.127.net/e78e412e462c0b0124c2f8c6d51b6773.jpg?imageView&thumbnail=0x196&quality=75",
+                "list": [{
+                    "til": "个护电器",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/e6c44e8dd451090b324fe127e3e8616d.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "口腔护理"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/2de6707340d511031a3fcb3d98ae770d.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "面部护理"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/117270efbbb5f5520dbc609dda5d5b44.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "头发护理"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/c1e5f68ac35456a9e2ba0718c68beeb8.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "身体护理"
+                    }]
+                }, {
+                    "til": "生活电器",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/0c82d0a8a1c8f6b8e55fca1894a20ccc.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "两季电器"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/c650bffea04dd2749d04d9f63edae464.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "清洁电器"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/b0e72093d1d047bbd0de7b3160b1506c.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "衣物护理"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/83b61bb07dfb743bd73889987aad0753.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "空气调节"
+                    }]
+                }, {
+                    "til": "厨房电器",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/591fe5284130069a3e408517443a78dd.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "厨房电器"
+                    }]
+                }, {
+                    "til": "按摩电器",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/0a563ba0f5e2c9e75031f5f160aee9ae.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "按摩器"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/c29feeeaf53de7455c2d3220fd4c746f.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "按摩椅"
+                    }]
+                }, {
+                    "til": "智能生活",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/f775aa270facc6e49f356cbffd5004f7.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "智能生活"
+                    }]
+                }, {
+                    "til": "3C数码",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/47e953a95e4378907b131205ce3cbc45.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "数码办公"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/620d2c977da93f5130eb5aed639850a0.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "手机配件"
+                    }]
+                }, {
+                    "til": "影音娱乐",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/a2170cc17ed18303f4f18949fea341b9.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "影音娱乐"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/77847b8066205331eb22c9c363e3740e.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "乐器唱片"
+                    }]
+                }, {
+                    "til": "汽车用品",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/09c8b36ba252b486eec081479606baa7.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "车载用品"
+                    }]
+                }]
+            },
+            "全球特色":{
+                "banner": "http://yanxuan.nosdn.127.net/704c2210bb03613a719b0d764e7ac4d3.jpg?imageView&thumbnail=0x196&quality=75",
+                "list": [{
+                    "til": "海外特色馆",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/8bb6f29648330c78a027287fdf644fc1.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "进口好货"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/87a30e5f8840976a07468411c6e75752.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "樱花限定"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/c39ff69de9baf07222994196d007c335.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "日韩馆"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/abc716169323f1b7ec9b11f243a1c742.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "东南亚馆"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/b8e0d041ccff6967364311588f3ef2e1.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "欧美馆"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/06ce9b7401d93bca1869d68adb6e7a61.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "澳新馆"
+                    }]
+                }, {
+                    "til": "特色品牌馆",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/11f3825726d6ba6cf683ab529a351902.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "春风馆"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/3835a4198a9955b6047a44998b92dc6c.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "味央馆"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/0fc461daa1fe3a479a2d745141ebe45b.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "Yessing馆"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/0203a26ab1b38a3a0841eb97d93fa4b5.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "国风馆"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/915a6f1e93a0f422021325c48863b331.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "东方草木馆"
+                    }]
+                }, {
+                    "til": "礼品图书",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/09dcfb5f3c8cd3ac0ca022861aa7d150.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "节庆礼盒"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/e98025a8dc0578fce04a78f19b29b5f7.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "礼品卡"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/26ee378c85e9bfc7f8c31dffac0117d2.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "童书/育儿"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/d11985fe7852e9fe4fcfc281e2ee9e96.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "文学/小说"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/30c9826ef1eb4a088270dcc59b2960b0.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "人文/社科"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/40b88a59cc3d9769f054e2ce8f381e14.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "生活/娱乐"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/4ec4e12201baabc563a4a39ee856147b.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "技能/成长"
+                    }]
+                }, {
+                    "til": "周边商品",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/97ee8a9031cf562a746958347cc90787.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "云音乐周边"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/e70587ace9f936e45198514ff8074e8d.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "暴雪周边"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/98f700a137c2f8e63e5e8b8261e2030e.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "我的世界"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/b011aba7843fe35523cd084f02de4d2f.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "梦幻西游"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/4615c4af82fb22d5e31cb41249982ea8.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "大话西游"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/64196ac59c60923bb4023c8881376ef2.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "阴阳师"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/dc5ea3f67a9312a19d685d85aae68474.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "游戏印象"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/a09ba4fc348225a055a7a3c82e05e49b.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "文创周边"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/b47bd562bedb8631c27e639da1e92b43.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "影视周边"
+                    }, {
+                        "picUrl": "http://yanxuan.nosdn.127.net/1785d77ba60a7b7f4d7641c702c3cf5f.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "动漫电玩"
+                    }]
+                }, {
+                    "til": "推荐品牌馆",
+                    "cates": [{
+                        "picUrl": "http://yanxuan.nosdn.127.net/ca7287d399e71f7e10a722fcfcb725b6.png?imageView&quality=85&thumbnail=144x144",
+                        "text": "严选推荐馆"
+                    }]
+                }]
+            }
+        }
+
+    }
+}

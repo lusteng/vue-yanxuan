@@ -6,7 +6,7 @@
                     <i class="iconfont icon-shouye"></i>
                     <p>首页</p>
                 </router-link>
-                <router-link to="/login" class="footer-item">
+                <router-link to="/cateList" class="footer-item">
                     <i class="iconfont icon-fenlei"></i>
                     <p>分类</p>
                 </router-link>
