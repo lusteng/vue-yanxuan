@@ -40,6 +40,11 @@ export default new Router({
       component: () => import("__page__/cateList")
     },
     {
+      path: "/marketdesc/:id",
+      name: "marketdesc",
+      component: () => import("__page__/marketDesc")
+    },
+    {
       path: "/about",
       name: "about",
       // route level code-splitting

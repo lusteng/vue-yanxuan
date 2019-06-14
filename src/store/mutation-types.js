@@ -31,3 +31,6 @@ export const FETCH_SEARCH_KEYWORDS = 'FETCH_SEARCH_KEYWORDS'
 
 //catelist
 export const FETCH_CATE_LIST = 'FETCH_CATE_LIST'
+
+//marketDesc
+export const FETCH_MARKET_DESC = 'FETCH_MARKET_DESC'

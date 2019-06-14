@@ -6,7 +6,9 @@
                 :key="index"
                 class="banner-item"
             >
-                <img :src="item.src" alt="" />
+                <router-link :to="`/marketDesc/${index}`">
+                    <img :src="item.src" alt="" />
+                </router-link>
             </swiper-slide> 
             <div class="swiper-pagination" slot="pagination"></div> 
         </swiper> 
