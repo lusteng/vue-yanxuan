@@ -45,6 +45,11 @@ export default new Router({
       component: () => import("__page__/marketDesc")
     },
     {
+      path: "/topic/:id",
+      name: "topic",
+      component: () => import("__page__/topic")
+    },
+    {
       path: "/about",
       name: "about",
       // route level code-splitting
