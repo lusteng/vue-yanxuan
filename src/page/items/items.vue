@@ -2,9 +2,10 @@
     <div>     
         <TopHeader />  
         <div class="yx-item">
-            <a href="#" class="yx-activity">
+            
+            <router-link :to="`/marketDesc/${cateIndex}`">
                 <img v-lazy="cateData.banner_img" />
-            </a>
+            </router-link>
             <ItemProductBlock 
                 v-for="(item, index) in cateData.list"
                 :key="index"
@@ -30,12 +31,18 @@ export default {
     computed: {
         ...mapGetters(['cateData'])
     },
+    data(){
+        return {
+            cateIndex: 0
+        }
+    },
     watch: {
         '$route'(to, from){ 
             this.getDatas(to.params.index)
         }
     },
     created(){ 
+        this.cateIndex = this.$route.params.index
         this.getDatas(this.$route.params.index)
     },
     methods: {
