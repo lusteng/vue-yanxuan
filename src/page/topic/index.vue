@@ -2,6 +2,13 @@
     <div>
         <SimpleHeader />  
         <div class="yx-topic"> 
+            <div class="yx-topic-cnt">
+                <OptimalTo
+                    v-for="(item, index) in topicList"
+                    :key="index"
+                    :data="item"
+                />
+            </div>
         </div>
     </div>
 </template>
@@ -9,6 +16,7 @@
 <script>
     import { mapGetters } from 'vuex'
     import SimpleHeader from '@/layout/header/SimpleHeader'
+    import OptimalTo from '@/commponents/market/OptimalTo'
     export default {
         name: "topic", 
         computed: {
@@ -16,6 +24,7 @@
         }, 
         components: {
             SimpleHeader,
+            OptimalTo,
         },
         created(){
             this.$store.dispatch('fetchTopicData', {
@@ -27,15 +36,9 @@
 </script>
 
 <style lang="scss">
-    .yx-marketdesc{
-        .p2p-imgContent{
-            height: auto!important;
-        }
-        img, .u-link{
-            width: 375px!important;
-            vertical-align: middle;
-            height: auto!important;
-        }
+    @import '~@/assets/css/mixin'; 
+    .yx-topic{
+
     }
 </style>
 

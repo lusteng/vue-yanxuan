@@ -8,7 +8,8 @@ $.each($('.m-main-content').find('.m-tpls'), function(){
             til: $(this).find('.u-name span:last-child').text(),
             tip: $(this).find('.u-name span:first-child img').attr('src'),
             desc: $(this).find('.title').text(),
-            pic: $(this).find('.u-pic img').attr('src')
+            pic: $(this).find('.u-pic img').attr('src'),
+            look: $(this).find('.u-rcount span').text() 
         }
     )
 })
