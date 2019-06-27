@@ -39,9 +39,6 @@
 </script>
 
 <style lang="scss">
-    @import '~@/assets/css/mixin'; 
-    .yx-topic{
-
-    }
+    @import '~@/assets/css/mixin';  
 </style>
 

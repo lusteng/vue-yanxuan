@@ -1,7 +1,7 @@
 import Vue from "vue"
 import Vuex from "vuex"
 import Common from './modules/common'
-import Index from './modules/index'
+import Home from './modules/home'
 import Items from './modules/items'
 import GoodsDetail from './modules/goodsDetail'
 import Comment from './modules/comment'
@@ -9,6 +9,7 @@ import Search from './modules/search'
 import CateList from './modules/cateList'
 import MarketDesc from './modules/marketDesc'
 import Topic from './modules/topic'
+import Manufacturer from './modules/manufacturer'
 import * as mutations from './mutation-types'
 
 
@@ -19,7 +20,7 @@ const debug = process.env.NODE_ENV !== 'production'
 export default new Vuex.Store({
     modules: {
         Common,
-        Index,
+        Home,
         Items,
         GoodsDetail,
         Comment,
@@ -27,6 +28,7 @@ export default new Vuex.Store({
         CateList,
         MarketDesc,
         Topic,
+        Manufacturer,
     },
     strict: debug
 });

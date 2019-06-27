@@ -37,3 +37,5 @@ export const FETCH_MARKET_DESC = 'FETCH_MARKET_DESC'
 
 //topic 
 export const FETCH_TOPIC_DATA = 'FETCH_TOPIC_DATA'
+//manufacturer
+export const FETCH_MANU_FACTURER_DATA = 'FETCH_MANU_FACTURER_DATA'
