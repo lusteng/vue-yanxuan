@@ -2,7 +2,7 @@
     <div class="footerWrap">
         <footer class="footer">
             <nav>
-                <router-link to="/login" class="footer-item current">
+                <router-link to="/" class="footer-item current">
                     <i class="iconfont icon-shouye"></i>
                     <p>首页</p>
                 </router-link>
@@ -10,7 +10,7 @@
                     <i class="iconfont icon-fenlei"></i>
                     <p>分类</p>
                 </router-link>
-                <router-link to="/login" class="footer-item">
+                <router-link to="/topic" class="footer-item">
                     <i class="iconfont icon-tupian"></i>
                     <p>识物</p>
                 </router-link>

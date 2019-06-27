@@ -12,7 +12,7 @@
         </div>
         <div class="t-rcount">
             <i class="iconfont icon-chakan"></i>
-            <span>{{item.look}}人看过</span>
+            <span>{{data.look}}</span>
         </div>
     </div>
 </template>
@@ -37,7 +37,8 @@ export default {
 }
 </script>
 
-<style lang="scss"> 
+<style lang="scss">  
+    @import '~@/assets/css/mixin'; 
     .t-item{
         padding: 18px 15px;
         margin: 10px 0 10px;

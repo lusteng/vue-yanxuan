@@ -8,15 +8,17 @@
                     :key="index"
                     :data="item"
                 />
-            </div>
+            </div>  
         </div>
+        <Footer />  
     </div>
 </template>
 
 <script>
     import { mapGetters } from 'vuex'
     import SimpleHeader from '@/layout/header/SimpleHeader'
-    import OptimalTo from '@/commponents/market/OptimalTo'
+    import OptimalTo from '@/components/market/OptimalTo'
+    import Footer from '@/layout/footer/Footer'
     export default {
         name: "topic", 
         computed: {
@@ -25,6 +27,7 @@
         components: {
             SimpleHeader,
             OptimalTo,
+            Footer,
         },
         created(){
             this.$store.dispatch('fetchTopicData', {

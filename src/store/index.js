@@ -8,6 +8,7 @@ import Comment from './modules/comment'
 import Search from './modules/search'
 import CateList from './modules/cateList'
 import MarketDesc from './modules/marketDesc'
+import Topic from './modules/topic'
 import * as mutations from './mutation-types'
 
 
@@ -25,6 +26,7 @@ export default new Vuex.Store({
         Search,
         CateList,
         MarketDesc,
+        Topic,
     },
     strict: debug
 });

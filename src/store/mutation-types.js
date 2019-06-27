@@ -34,3 +34,6 @@ export const FETCH_CATE_LIST = 'FETCH_CATE_LIST'
 
 //marketDesc
 export const FETCH_MARKET_DESC = 'FETCH_MARKET_DESC'
+
+//topic 
+export const FETCH_TOPIC_DATA = 'FETCH_TOPIC_DATA'

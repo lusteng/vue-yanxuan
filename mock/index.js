@@ -93,4 +93,10 @@ module.exports = function(app){
             json = util.getJsonFile(`./market_desc.json`);
         res.json(Mock.mock(json)); 
     })
+    
+    app.get('/topic', function(req, res){
+        let 
+            json = util.getJsonFile(`./topic.json`);
+        res.json(Mock.mock(json)); 
+    })
 }

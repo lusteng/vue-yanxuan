@@ -45,7 +45,7 @@ export default new Router({
       component: () => import("__page__/marketDesc")
     },
     {
-      path: "/topic/:id",
+      path: "/topic",
       name: "topic",
       component: () => import("__page__/topic")
     },
@@ -62,7 +62,7 @@ export default new Router({
       path: "/login",
       name: "login",
       component: () =>
-        import("__page__/login")
+        import("__page__/login/index.vue")
     },
     {
       path: "/404",
