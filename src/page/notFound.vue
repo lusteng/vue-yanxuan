@@ -1,13 +1,15 @@
-<template>
-    <div class="yx-not">
+<template class="notBg">
+    <div class="yx-not" style="height: 100%;">
         <SimpleHeader />
-        <router-link to="/" class="pic">
-            <img src="https://yanxuan.nosdn.127.net/15282710826304778.png" alt="" />
-        </router-link>
-        <div class="tip">
-            <p>亲，你走得太远了</p>
-            <p>好的生活，没那么贵，更没那么远</p>
-            <router-link to="/">逛逛其他好物</router-link>
+        <div class="yx-not-box"> 
+            <router-link to="/" class="pic">
+                <img src="https://yanxuan.nosdn.127.net/15282710826304778.png" alt="" />
+            </router-link>
+            <div class="tip">
+                <p>亲，你走得太远了</p>
+                <p>好的生活，没那么贵，更没那么远</p>
+                <router-link to="/">逛逛其他好物</router-link>
+            </div>
         </div>
     </div>
 </template>
@@ -21,10 +23,12 @@ export default {
     },
     mounted(){
         this.$nextTick(() => {
+            document.documentElement.setAttribute('class', 'notBg')
             document.body.setAttribute('class', 'notBg')
         })
     },
     beforeDestroy(){
+        document.documentElement.removeAttribute('class')
         document.body.removeAttribute('class')
     }
 }
@@ -34,7 +38,17 @@ export default {
     @import '~@/assets/css/mixin'; 
     .notBg{
         height: 100%;
+    } 
+    body.notBg{
         background: url('https://yanxuan.nosdn.127.net/15282710800804764.png');
+    }    
+    .yx-not{
+        height: 100%;
+    }
+    .yx-not-boxa{
+        @include flex;
+        align-content: center;
+        height: 100%;
     }
     .pic{
         width: 100%;

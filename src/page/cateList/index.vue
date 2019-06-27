@@ -16,14 +16,14 @@
                 <div class="ct-rt" ref="rightContent">
                     <div class="121">
                         <div class="ct-container ct-rt-item" v-for="(item, index) in cateLists.rightCnt" :key="index">
-                            <router-link class="banner" to="/">
+                            <router-link class="banner" :to="`/item/${Math.ceil(Math.random() * 9)}`">
                                 <img v-lazy="item.banner" alt="">
                             </router-link>
                             <div class="ct-inner" v-for="(cateItem, cateIdx) in item.list" :key="cateIdx">
                                 <h4 class="ct-til" v-if="cateItem.til">{{cateItem.til}}</h4>
                                 <ul class="ct-list">
                                     <li v-for="(liItem, liIdx) in cateItem.cates" :key="liIdx">
-                                        <router-link class="ct-item" to="/">
+                                        <router-link class="ct-item" :to="`/item/${Math.ceil(Math.random() * 9)}`">
                                             <img v-lazy="liItem.picUrl" alt="" />
                                             <p>{{liItem.text}}</p>
                                         </router-link>

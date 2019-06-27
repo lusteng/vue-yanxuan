@@ -9,7 +9,7 @@
                     :key="`top${index}`" 
                     v-for="(item, index) in hotSalls.hot"
                 >
-                    <a href="#" class="inner">
+                    <router-link to="/manufacturer/3" class="inner">
                         <div class="name">
                             <span>
                                 {{item.name}}
@@ -18,21 +18,21 @@
                         <div class="picWrap">
                             <img v-lazy="item.picUrl" alt="" />
                         </div>
-                    </a>
+                    </router-link>
                 </li>
                 <li 
                     class="item rank"
                     :key="`rank${index}`" 
                     v-for="(item, index) in hotSalls.ranks"
                 >
-                    <a href="#" class="inner">
+                    <router-link :to="`/item/${index + 1}`" class="inner">
                         <p class="name">
                             {{item.name}}
                         </p>
                         <div class="picWrap">
                             <img :src="item.picUrl" alt="" />
                         </div>
-                    </a>
+                    </router-link>
                 </li> 
             </ul>
         </section>

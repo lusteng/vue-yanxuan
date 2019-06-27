@@ -6,40 +6,46 @@
         <div class="fresh-content clearfix">
             <div class="fl space-right">
                 <div class="new-bag">
-                    <p class="name">新人专享礼包</p>
-                    <img v-lazy="`${new_bag}`" />  
+                    <router-link to="/login">
+                        <p class="name">新人专享礼包</p>
+                        <img v-lazy="`${new_bag}`" />  
+                    </router-link>
                 </div>
             </div>
             <div class="fr space-left">
                 <div class="fresh-module module1 space-bottom">
-                    <div class="inner"> 
-                        <div class="picWrap">
-                            <img v-lazy="`${well}`"/> 
-                            <div class="price">
-                                <p class="line line1">¥524</p>
-                                <p class="line line2">¥699</p>
+                    <router-link to="/detail/20152154511">
+                        <div class="inner"> 
+                            <div class="picWrap">
+                                <img v-lazy="`${well}`"/> 
+                                <div class="price">
+                                    <p class="line line1">¥524</p>
+                                    <p class="line line2">¥699</p>
+                                </div>  
+                            </div>
+                            <div class="discount-word"> 
+                                <div class="title">福利社</div>
+                                <div class="subTitle">今日特价</div>
                             </div>
                         </div>
-                        <div class="discount-word"> 
-                            <div class="title">福利社</div>
-                            <div class="subTitle">今日特价</div>
-                        </div>
-                    </div>
+                    </router-link>
                 </div>
                 <div class="fresh-module module2 space-top">
-                    <div class="inner">
-                        <div class="picWrap">
-                            <img v-lazy="`${group}`"/> 
-                            <div class="price">
-                                <p class="line line1">¥1</p>
-                                <p class="line line2">¥14.9</p>
+                    <router-link to="/item/324234">
+                        <div class="inner">
+                            <div class="picWrap">
+                                <img v-lazy="`${group}`"/> 
+                                <div class="price">
+                                    <p class="line line1">¥1</p>
+                                    <p class="line line2">¥14.9</p>
+                                </div>
                             </div>
+                            <div class="cnt">
+                                <div class="title">新人拼团</div>
+                                <div class="tag">1元起包邮</div>
+                            </div> 
                         </div>
-                        <div class="cnt">
-                            <div class="title">新人拼团</div>
-                            <div class="tag">1元起包邮</div>
-                        </div> 
-                    </div>
+                    </router-link>
                 </div>
             </div>
         </div>

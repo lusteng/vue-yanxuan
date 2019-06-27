@@ -5,42 +5,50 @@
     >
          <ul class="brandMade clearfix">
              <li class="bm-item space-right space-bottom">
-                 <div class="inner">
-                    <h4>海外制造商</h4>
-                    <div class="cnt">
-                        <span>9.9</span>
-                        <span>元</span>
-                        <i>上新</i>
+                <router-link to="/manufacturer/0">
+                    <div class="inner">
+                        <h4>海外制造商</h4>
+                        <div class="cnt">
+                            <span>9.9</span>
+                            <span>元</span>
+                            <i>上新</i>
+                        </div>
                     </div>
-                 </div>
+                </router-link>
              </li>
              <li class="bm-item space-left space-bottom">
-                 <div class="inner">
-                    <h4>CK制造商</h4>
-                    <div class="cnt">
-                        <span>25</span>
-                        <span>元起</span>
-                        <i>上新</i>
+                <router-link to="/manufacturer/1">
+                     <div class="inner">
+                        <h4>CK制造商</h4>
+                        <div class="cnt">
+                            <span>25</span>
+                            <span>元起</span>
+                            <i>上新</i>
+                        </div>
                     </div>
-                 </div>
+                </router-link>
              </li>
              <li class="bm-item space-right space-top">
-                 <div class="inner">
-                    <h4>新秀丽制造商</h4>
-                    <div class="cnt">
-                        <span>34.9</span>
-                        <span>元起</span> 
+                <router-link to="/manufacturer/2">
+                     <div class="inner">
+                        <h4>新秀丽制造商</h4>
+                        <div class="cnt">
+                            <span>34.9</span>
+                            <span>元起</span> 
+                        </div>
                     </div>
-                 </div>
+                </router-link>
              </li>
              <li class="bm-item space-left space-top">
-                 <div class="inner">
-                    <h4>Nine West制造商</h4>
-                    <div class="cnt">
-                        <span>219</span>
-                        <span>元起</span> 
+                <router-link to="/manufacturer/3">
+                     <div class="inner">
+                        <h4>Nine West制造商</h4>
+                        <div class="cnt">
+                            <span>219</span>
+                            <span>元起</span> 
+                        </div>
                     </div>
-                 </div>
+                </router-link>
              </li>
          </ul>
     </ProductShowContainer>    

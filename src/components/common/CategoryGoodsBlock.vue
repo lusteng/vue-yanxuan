@@ -5,9 +5,9 @@
 <template>
     <section class="yx-category">
         <div v-if="categoryData.main" class="yx-category-head">
-            <a href="#">
+            <router-link :to="`/manufacturer/(${Math.ceil(Math.random() * 10)}`">
                 <img v-lazy="categoryData.main.picUrl" alt="" />
-            </a>
+            </router-link>
         </div>
         <div class="yx-category-list" v-if="categoryData.goods.length > 1"> 
             <swiper :options="swiperOption">
@@ -18,9 +18,9 @@
                     <ProductCard :productData="item" />
                 </swiper-slide> 
                 <swiper-slide> 
-                    <a href="#" class="lookMore">
+                    <router-link class="lookMore" :to="`/manufacturer/(${Math.ceil(Math.random() * 10)}`">
                         查看更多&gt;
-                    </a>
+                    </router-link>
                 </swiper-slide> 
             </swiper> 
         </div>
