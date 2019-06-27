@@ -1,8 +1,7 @@
 <template> 
     <div>     
         <TopHeader />  
-        <div class="yx-item">
-            
+        <div class="yx-item"> 
             <router-link :to="`/marketDesc/${cateIndex}`">
                 <img v-lazy="cateData.banner_img" />
             </router-link>

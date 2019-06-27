@@ -38,7 +38,7 @@ export default {
     name: "CategoryNav", 
     computed: {
         ...mapState({
-            topNavOptions: state => state.Index.topNavOptions
+            topNavOptions: state => state.Home.topNavOptions
         })
     },
     data(){

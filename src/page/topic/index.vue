@@ -16,7 +16,7 @@
 <script>
     import { mapGetters } from 'vuex'
     import SimpleHeader from '@/layout/header/SimpleHeader'
-    import OptimalTo from '@/commponents/market/OptimalTo'
+    import OptimalTo from '@/components/market/OptimalTo'
     export default {
         name: "topic", 
         computed: {

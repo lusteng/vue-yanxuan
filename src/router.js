@@ -43,18 +43,15 @@ export default new Router({
       path: "/marketdesc/:id",
       name: "marketdesc",
       component: () => import("__page__/marketDesc")
-    },
+    }, 
     {
-      path: "/topic/:id",
-      name: "topic",
-      component: () => import("__page__/topic")
-    },
+      path: "/manufacturer/:id",
+      name: "manufacturer",
+      component: () => import("__page__/manufacturer")
+    }, 
     {
       path: "/about",
-      name: "about",
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
+      name: "about", 
       component: () =>
         import(/* webpackChunkName: "about" */ "./page/About.vue")
     },

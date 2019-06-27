@@ -31,7 +31,7 @@
 <style lang="scss">
     @import '~@/assets/css/mixin';
     .headWrap{
-        height: 74px;
+        height: 44px;
     }
     .head{
         @include posFixed(999);
