@@ -14,7 +14,7 @@
                     </div>
                 </div>
                 <div class="ct-rt" ref="rightContent">
-                    <div class="121">
+                    <div>
                         <div class="ct-container ct-rt-item" v-for="(item, index) in cateLists.rightCnt" :key="index">
                             <router-link class="banner" :to="`/item/${Math.ceil(Math.random() * 9)}`">
                                 <img v-lazy="item.banner" alt="">
@@ -43,6 +43,8 @@ import { mapGetters } from 'vuex'
 import Footer from '@/layout/footer/Footer'
 import OnlySearchHeader from '@/layout/header/OnlySearchHeader'
 import BScroll from 'better-scroll'
+import { throttle } from '@/utils'
+
 export default {
     name: "cateList",
     components: {
@@ -53,12 +55,15 @@ export default {
         ...mapGetters(['cateLists']),
         /** 实时计算右侧滚动块可视索引 */
         curRightIndex(){
-            let ind = 0;
-            this.heights.forEach((item, index) => {
+            let 
+                ind = 0,
+                higs = this.higs;
+            console.log(JSON.stringify(this.higs));
+            higs.forEach((item, index) => {
                 if(
-                    index < this.heights.length - 2
-                &&  this.scrollY >= item
-                &&  this.heights[index + 1] > this.scrollY 
+                        index < higs.length - 2
+                    &&  this.scrollY >= item
+                    &&  higs[index + 1] > this.scrollY 
                 ){
                     ind = index
                 }
@@ -68,7 +73,7 @@ export default {
     },
     data(){
         return {
-            heights: [],
+            higs: [],
             scrollY: 0
         }
     },
@@ -92,28 +97,29 @@ export default {
                 this.contentScroll = new BScroll(this.$refs.rightContent, {
                     probeType: 3
                 })
-
-                this.contentScroll.on('scroll', (pos) => {
-                    this.scrollY = Math.abs(Math.round(pos.y));
-                })
+ 
+                let setScrollY = throttle((pos) => { 
+                    let _this = this;  
+                    _this.scrollY = Math.abs(Math.round(pos.y));
+                }) 
+                //TODO 优化卡顿问题
+                this.contentScroll.on('scroll', setScrollY)
         },
         _setRightContentHeight(){
             let 
                 clds = this.$refs.rightContent.getElementsByClassName('ct-rt-item'),
                 hig = 0; 
-                this.heights.push(hig)
+                this.higs.push(hig) 
                 for(var i = 0; i < clds.length; i++){
                     hig += clds[i].clientHeight
-                    this.heights.push(hig) 
+                    this.higs.push(hig) 
                 } 
-                console.log(this.heights)
         }, 
         handleChangeLeftNav(cur){
             let 
                 clds = this.$refs.rightContent.getElementsByClassName('ct-rt-item'),
-                ele = clds[cur]; 
-            console.log(this.navScroll)
-            this.navScroll.scrollToElement(ele, 300)
+                ele = clds[cur];               
+            this.contentScroll.scrollToElement(ele, 300)
         }
     }
 }
@@ -136,6 +142,7 @@ $imgSize: 72px;
         width: 81px;
         padding-top: $lfSpace;
         margin-top: $lfSpace;
+        padding-bottom: $lfSpace * 2;
         .ct-nav{
             @include blackFont;
             margin-bottom: $lfSpace;

@@ -2,15 +2,15 @@
     <div class="footerWrap">
         <footer class="footer">
             <nav>
-                <router-link to="/" class="footer-item current">
+                <router-link to="/" class="footer-item" :class="{current: pathName === 'index'}">
                     <i class="iconfont icon-shouye"></i>
                     <p>首页</p>
                 </router-link>
-                <router-link to="/cateList" class="footer-item">
+                <router-link to="/catelist" class="footer-item" :class="{current: pathName === 'catelist'}">
                     <i class="iconfont icon-fenlei"></i>
                     <p>分类</p>
                 </router-link>
-                <router-link to="/topic" class="footer-item">
+                <router-link to="/topic" class="footer-item" :class="{current: pathName === 'topic'}">
                     <i class="iconfont icon-tupian"></i>
                     <p>识物</p>
                 </router-link>
@@ -18,7 +18,7 @@
                     <i class="iconfont icon-gouwuche"></i>
                     <p>购物车</p> 
                 </router-link> 
-                <router-link to="/login" class="footer-item">
+                <router-link to="/login" class="footer-item" :class="{current: pathName === 'login'}">
                     <i class="iconfont icon-geren"></i>
                     <p>个人</p>
                 </router-link>  
@@ -34,7 +34,17 @@
         name: 'Footer',
         components: {
             GoTop
-        }
+        }, 
+        data(){
+            return {
+                pathName: '',
+            }
+        },
+        created(){ 
+            // router-link active class 选中的另外一种菜单选中方法，匹配路由名称
+            let pathName = this.$route.name;
+            this.pathName = pathName;  
+        },
     }
 </script>
 

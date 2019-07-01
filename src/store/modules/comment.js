@@ -48,7 +48,6 @@ const mutations = {
                 max = 10,
                 new_result = shuffle(result),
                 radom_result = new_result.slice(0, Math.floor(Math.random() * max));  
-            console.log(`radom_result length = ${radom_result.length}`)
             state.product_cmts = radom_result
             // state.product_cmts = data.data.result; //Will Use
         }else{

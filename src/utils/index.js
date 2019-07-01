@@ -18,28 +18,42 @@ export function shuffle(arr){
         arr[random_ind] = exchangeItem 
     } 
     return arr
-}
+} 
 
-//节流 执行频率 300ms 
-export function throttle(fn, interval = 300){
-    let run = true
-    return () => {
-        if(!run) return
-        run = false
-        setTimeout(() => {
-            fn.apply(this, arguments)
-            run = true 
-        }, interval) 
+//节流 降低事件执行频率 提高高频触发场景性能 
+export function throttle(fn, threshhold = 300){ 
+    let 
+        starTime = new Date() - 0,
+        timeout,
+        run = true 
+        
+    return function(){ 
+        let 
+            _this = this,
+            arg = arguments,
+            nowTime = new Date() - 0 
+        clearTimeout(timeout)        
+        // TODO  arg 参数获取  
+        if(nowTime - starTime >= threshhold){
+            // 超过阈值，执行
+            fn.apply(_this, arg)
+            starTime = nowTime
+        }else{
+            // 最后一次执行
+            timeout = setTimeout(() => {
+                fn.apply(_this, arg)
+            }, threshhold)
+        } 
     } 
 }
 
-//防抖 300ms内才能继续执行
-export function debounce(fn, interval = 300){
+//防抖 限制规定时间内才能继续执行事件，常用场景请求后端接口
+export function debounce(fn, threshhold = 300){
     let timeout = null
     return () => {
         clearTimeout(timeout)
         timeout = setTimeout(() => {
             fn.apply(this, arguments)
-        }, interval)
+        }, threshhold)
     }
 }

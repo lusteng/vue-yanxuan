@@ -54,7 +54,7 @@
         }, 
         computed: {
             ...mapGetters(['cateGoods'])
-        },
+        }, 
         created(){
             this.$store.dispatch('fetchCategoryGoods')
         }

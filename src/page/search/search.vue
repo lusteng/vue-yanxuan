@@ -95,7 +95,6 @@ export default {
      methods: {
         handleSkiptoSearch(kw){
             let search_history = JSON.parse(localStorage.getItem('_search_history')) || []
-            console.log(search_history)
             if(!search_history.some(item => {
                 return item === kw 
             })){
