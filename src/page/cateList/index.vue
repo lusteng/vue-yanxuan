@@ -57,24 +57,23 @@ export default {
         curRightIndex(){
             let 
                 ind = 0,
-                higs = this.higs;
-            console.log(JSON.stringify(this.higs));
+                higs = this.higs;    
             higs.forEach((item, index) => {
                 if(
-                        index < higs.length - 2
+                        index < higs.length - 1
                     &&  this.scrollY >= item
-                    &&  higs[index + 1] > this.scrollY 
+                    &&  this.scrollY < higs[index + 1]   
                 ){
                     ind = index
                 }
-            })
+            }) 
             return ind;
         }
     },
     data(){
         return {
             higs: [],
-            scrollY: 0
+            scrollY: 0,
         }
     },
     created(){
@@ -89,20 +88,19 @@ export default {
         })
     }, 
     methods: {
-        _initScroll(){ 
- 
-                this.navScroll = new BScroll(this.$refs.leftNav, {
-                    // click: true
+        _initScroll(){  
+                this.navScroll = new BScroll(this.$refs.leftNav, { 
                 })
                 this.contentScroll = new BScroll(this.$refs.rightContent, {
-                    probeType: 3
+                    probeType: 3,
+                    taps: true,
+                    click: true
                 })
  
                 let setScrollY = throttle((pos) => { 
-                    let _this = this;  
+                    let _this = this;   
                     _this.scrollY = Math.abs(Math.round(pos.y));
-                }) 
-                //TODO 优化卡顿问题
+                })  
                 this.contentScroll.on('scroll', setScrollY)
         },
         _setRightContentHeight(){

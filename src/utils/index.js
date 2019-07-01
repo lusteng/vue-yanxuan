@@ -32,8 +32,7 @@ export function throttle(fn, threshhold = 300){
             _this = this,
             arg = arguments,
             nowTime = new Date() - 0 
-        clearTimeout(timeout)        
-        // TODO  arg 参数获取  
+        clearTimeout(timeout)       
         if(nowTime - starTime >= threshhold){
             // 超过阈值，执行
             fn.apply(_this, arg)
@@ -48,12 +47,15 @@ export function throttle(fn, threshhold = 300){
 }
 
 //防抖 限制规定时间内才能继续执行事件，常用场景请求后端接口
-export function debounce(fn, threshhold = 300){
-    let timeout = null
-    return () => {
-        clearTimeout(timeout)
-        timeout = setTimeout(() => {
-            fn.apply(this, arguments)
-        }, threshhold)
+export function debounce(fn, delay = 300){
+    let startTime = new Date() - 0 
+    return function(){
+        let nowTime = new Date() - 0,
+            _this = this,
+            arg = arguments  
+        if(nowTime - startTime > 0){ 
+            fn.apply(_this, arg) 
+            startTime = new Date() - 0 + delay
+        }
     }
-}
+} 
