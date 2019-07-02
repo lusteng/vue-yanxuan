@@ -4,7 +4,7 @@
             <OnlySearchHeader />
             <div class="ct-box">
                 <div class="ct-lf" ref="leftNav">
-                    <div>
+                    <div class="inner">
                         <div 
                             :class="{'ct-nav' : true, 'active' : curRightIndex === index}" 
                             v-for="(item, index) in cateLists.nav" 
@@ -52,28 +52,36 @@ export default {
         Footer
     },
     computed: {
-        ...mapGetters(['cateLists']),
-        /** 实时计算右侧滚动块可视索引 */
-        curRightIndex(){
-            let 
-                ind = 0,
-                higs = this.higs;    
-            higs.forEach((item, index) => {
-                if(
-                        index < higs.length - 1
-                    &&  this.scrollY >= item
-                    &&  this.scrollY < higs[index + 1]   
-                ){
-                    ind = index
-                }
-            }) 
-            return ind;
-        }
+        ...mapGetters(['cateLists']), 
     },
     data(){
         return {
             higs: [],
             scrollY: 0,
+            curRightIndex: 0, 
+            touchSwicth: false, 
+        }
+    },
+    watch:{
+        scrollY(val){ 
+            let 
+                _this = this,
+                ind = 0,
+                higs = _this.higs;    
+            if(_this.touchSwicth) return
+            higs.forEach((item, index) => {
+                if(
+                        index < higs.length - 1
+                    &&  val >= item
+                    &&  val < higs[index + 1]   
+                ){
+                    ind = index
+                }
+            }) 
+            if(_this.curRightIndex !== ind){
+                _this.curRightIndex = ind
+                _this._setLeftNavVertical(ind)
+            } 
         }
     },
     created(){
@@ -89,19 +97,22 @@ export default {
     }, 
     methods: {
         _initScroll(){  
-                this.navScroll = new BScroll(this.$refs.leftNav, { 
+                let _this = this
+                _this.navScroll = new BScroll(_this.$refs.leftNav, { 
                 })
-                this.contentScroll = new BScroll(this.$refs.rightContent, {
+                _this.contentScroll = new BScroll(_this.$refs.rightContent, {
                     probeType: 3,
                     taps: true,
                     click: true
                 })
  
                 let setScrollY = throttle((pos) => { 
-                    let _this = this;   
                     _this.scrollY = Math.abs(Math.round(pos.y));
                 })  
-                this.contentScroll.on('scroll', setScrollY)
+                _this.contentScroll.on('scroll', setScrollY)
+                _this.contentScroll.on('scrollEnd', () => { 
+                    if(_this.touchSwicth) _this.touchSwicth = false
+                })
         },
         _setRightContentHeight(){
             let 
@@ -113,11 +124,28 @@ export default {
                     this.higs.push(hig) 
                 } 
         }, 
+        _setLeftNavVertical(cur){
+            let 
+                $leftNav = this.$refs.leftNav,
+                leftNavHig = $leftNav.clientHeight, 
+                curEl = $leftNav.getElementsByClassName('ct-nav')[cur],
+                curElHig = curEl.clientHeight,
+                curElTop = curEl.offsetTop,
+                scrollTo = Math.ceil(leftNavHig / 2 - curElTop - curElHig); 
+                // 位于中间菜单项选中居中
+                if(scrollTo < 0 && Math.abs(scrollTo) < curElTop / 2){
+                    this.navScroll.scrollTo(0, scrollTo, 400) 
+                }
+        },
         handleChangeLeftNav(cur){
             let 
-                clds = this.$refs.rightContent.getElementsByClassName('ct-rt-item'),
-                ele = clds[cur];               
-            this.contentScroll.scrollToElement(ele, 300)
+                _this = this,
+                clds = _this.$refs.rightContent.getElementsByClassName('ct-rt-item'),
+                ele = clds[cur];       
+            _this.curRightIndex = cur            
+            _this.contentScroll.scrollToElement(ele, 300)
+            _this._setLeftNavVertical(cur)
+            _this.touchSwicth = true
         }
     }
 }
@@ -137,10 +165,8 @@ $imgSize: 72px;
     border-top: 1px solid $gray;
     display: flex;
     .ct-lf{
-        width: 81px;
-        padding-top: $lfSpace;
-        margin-top: $lfSpace;
-        padding-bottom: $lfSpace * 2;
+        width: 81px; 
+        margin-top: $lfSpace; 
         .ct-nav{
             @include blackFont;
             margin-bottom: $lfSpace;

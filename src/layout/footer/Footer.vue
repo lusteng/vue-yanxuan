@@ -14,7 +14,7 @@
                     <i class="iconfont icon-tupian"></i>
                     <p>识物</p>
                 </router-link>
-                <router-link to="/login" class="footer-item">
+                <router-link to="/cart" class="footer-item" :class="{current: pathName === 'cart'}">
                     <i class="iconfont icon-gouwuche"></i>
                     <p>购物车</p> 
                 </router-link> 
@@ -59,6 +59,7 @@
         bottom: 0;
         left: 0;
         background: $white;
+        border-top: 1px solid #d9d9d9;
         @include block(100%, 49px);
         nav{
             @include block(100%, 100%);

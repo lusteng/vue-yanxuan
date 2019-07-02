@@ -53,18 +53,18 @@ export default new Router({
       path: "/manufacturer/:id",
       name: "manufacturer",
       component: () => import("__page__/manufacturer")
-    }, 
+    },  
     {
-      path: "/about",
-      name: "about", 
+      path: "/cart",
+      name: "cart",
       component: () =>
-        import(/* webpackChunkName: "about" */ "./page/About.vue")
+        import("__page__/cart")
     },
     {
       path: "/login",
       name: "login",
       component: () =>
-        import("__page__/login/index.vue")
+        import("__page__/login")
     },
     {
       path: "/404",

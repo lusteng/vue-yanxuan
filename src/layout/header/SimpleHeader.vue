@@ -16,7 +16,7 @@
                     <em>搜索</em>
                 </i>
             </router-link>
-            <router-link class="hd-cart hd-item" to="/">
+            <router-link class="hd-cart hd-item" to="/cart">
                 <i class="iconfont icon-gouwuche">
                     <em>购物车</em>
                 </i>

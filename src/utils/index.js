@@ -21,7 +21,7 @@ export function shuffle(arr){
 } 
 
 //节流 降低事件执行频率 提高高频触发场景性能 
-export function throttle(fn, threshhold = 300){ 
+export function throttle(fn, threshhold = 200){ 
     let 
         starTime = new Date() - 0,
         timeout,
@@ -47,7 +47,7 @@ export function throttle(fn, threshhold = 300){
 }
 
 //防抖 限制规定时间内才能继续执行事件，常用场景请求后端接口
-export function debounce(fn, delay = 300){
+export function debounce(fn, delay = 400){
     let startTime = new Date() - 0 
     return function(){
         let nowTime = new Date() - 0,
