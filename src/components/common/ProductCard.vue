@@ -5,7 +5,7 @@
 <template>  
     <router-link
         :class="`yx-card ${outterClass}`"
-        :to="`/detail/${productData.id}`" 
+        :to="`/detail/${productData.id || 0}`" 
     >
         <div class="yx-card-box">
             <div 

@@ -3,7 +3,7 @@
         <div class="gc-box">
             <div class="gc-head clearfix">  
                 用户评价({{comment.comment_n}})
-                <router-link class="unfold fr" :to="`/comment/${this.$route.params.id}`">
+                <router-link class="unfold fr" :to="`/comment/${this.$route.params.id || '0'}`">
                     <span>
                         <em>{{comment.rate}}</em>好评率                    
                     </span>

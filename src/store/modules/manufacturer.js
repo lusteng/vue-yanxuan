@@ -12,7 +12,7 @@ const getters = {
 
 const actions = { 
     fetchManufacturerData({commit}, condition){  
-        api.fetchManufacturerData().then(reply => {
+        api.fetchManufacturerData(condition).then(reply => {
             if(reply.errCode == 0){
                 commit(types.FETCH_MANU_FACTURER_DATA, reply.data)
                 condition.cb && condition.cb()

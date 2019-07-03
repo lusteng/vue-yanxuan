@@ -127,15 +127,21 @@ export default {
         _setLeftNavVertical(cur){
             let 
                 $leftNav = this.$refs.leftNav,
-                leftNavHig = $leftNav.clientHeight, 
+                leftNavHig = $leftNav.clientHeight,
+                leftNavBarHig = $leftNav.getElementsByClassName('inner')[0].clientHeight,  
                 curEl = $leftNav.getElementsByClassName('ct-nav')[cur],
                 curElHig = curEl.clientHeight,
                 curElTop = curEl.offsetTop,
                 scrollTo = Math.ceil(leftNavHig / 2 - curElTop - curElHig); 
                 // 位于中间菜单项选中居中
-                if(scrollTo < 0 && Math.abs(scrollTo) < curElTop / 2){
-                    this.navScroll.scrollTo(0, scrollTo, 400) 
-                }
+                console.log(scrollTo, leftNavBarHig);
+                if(scrollTo > 0){
+                    scrollTo = 0
+                }else if(Math.abs(scrollTo) > leftNavBarHig - leftNavHig){
+                    scrollTo = - (leftNavBarHig - leftNavHig)
+                }  
+                console.log(scrollTo);
+                this.navScroll.scrollTo(0, scrollTo, 400) 
         },
         handleChangeLeftNav(cur){
             let 
