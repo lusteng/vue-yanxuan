@@ -76,16 +76,26 @@ export default {
             line-height: 30px;
             padding-right: 60px;
             padding-left: 15px;
+            border-bottom: 1px solid $gray;
             .top-nav-item.swiper-slide{
                 display: inline-block;
                 font-size: 14px;
                 padding: 0 8px; 
                 color: $black;
                 width: auto;
-                &.active{
-                    border-bottom: 1px solid $yx_theme;
+                &.active{ 
+                    position: relative;
                     a{
                         color: $yx_theme;
+                    }
+                    &::after{
+                        content: ' ';
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        width: 100%;
+                        height: 2px;
+                        background-color: $yx_theme;
                     }
                 }
                 &:not(:first-child){

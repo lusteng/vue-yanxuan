@@ -83,5 +83,6 @@ export default {
         text-align: center;
         line-height: $boxSize; 
         font-size: 20px;
+        z-index: 10000;
     }
 </style>

@@ -41,6 +41,7 @@
                 </van-list>    
             </div>
         </div>
+        <GoTop />
     </div>
 </template>
 
@@ -48,6 +49,7 @@
 import Header from '@/layout/header/SimpleHeader'
 import ProductTag from '@/components/common/ProductTag'
 import CommentModule from '@/components/common/CommentModule'
+import GoTop from '@/components/common/GoTop'
 import { mapGetters } from 'vuex'
 
 export default {
@@ -59,6 +61,7 @@ export default {
         Header,
         ProductTag,
         CommentModule,
+        GoTop,
     },
     data(){
         return {
