@@ -1,6 +1,7 @@
 
 ### 关于
-响应适配多种设备机型是移动端开发的一个重点，之前开发项目多采用rem、media查询、flex百分比布局，最近研究vw(视口单位)实现适配布局，决定采用vue写仿网易严选项目练习下
+适配多种设备视口是移动端所面对的场景，之前开发项目中多采用rem、media查询、flex百分比等布局，最近研究vw(视口单位)实现适配布局过程中，决定采用vue写仿网易严选项目练习下
+- - -
 注：讲解几种适配大法比较好的文章[https://juejin.im/post/5bc07ebf6fb9a05d026119a9]  
 #### 关于后端
 本来打算用node + mongodb开发个简单后台，奈何业余时间不足，打算留待后续有精力再开发。目前开发环境采用简单mock数据，目前跟登录、购物相关页面暂未开发
@@ -10,7 +11,7 @@
 vue2 + vuex + vue-router + webpack + ES6 + axios + sass + flex  
 
 ### 运行
-```
+```~
 git clone https://github.com/lusteng/vue-yanxuan.git  
 
 cd vue-yanxuan
@@ -25,7 +26,14 @@ npm run serve
 [http://www.liubaitong.com/view/?site=yanxuan](http://www.liubaitong.com/view/?site=yanxuan)
 
 ### 部分页面截图 
-![image](https://github.com/lusteng/react-filter-select/blob/master/images/index.gif)
+![image](https://github.com/lusteng/vue-yanxuan/tree/master/images/index.gif)
+![image](https://github.com/lusteng/vue-yanxuan/tree/master/images/index1.gif)
+![image](https://github.com/lusteng/vue-yanxuan/tree/master/images/detail.gif)
+![image](https://github.com/lusteng/vue-yanxuan/tree/master/images/catelist.gif)
+![image](https://github.com/lusteng/vue-yanxuan/tree/master/images/items.gif)
+![image](https://github.com/lusteng/vue-yanxuan/tree/master/images/topic.gif)
+
+
 
 ### 目录结构
 
@@ -80,7 +88,8 @@ npm run serve
 |     └── index.js
 ├── static                              //静态资源
 |  └── img 
-├── tests   
+├── tests    
+├── postcss.config.js                   //配置vw文件  
 .
 . 
 
