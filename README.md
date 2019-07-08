@@ -8,7 +8,7 @@
 
 
 ### 技术栈
-vue2 + vuex + vue-router + webpack + ES6 + axios + sass + flex  
+vue2 + vuex + vue-router + webpack + ES6 + axios + sass   
 
 ### 运行
 ```~
@@ -23,17 +23,17 @@ npm run serve
 ```
 
 ### Demo
+
 [http://www.liubaitong.com/view/?site=yanxuan](http://www.liubaitong.com/view/?site=yanxuan)
 
-### 部分页面截图 
-![image](https://github.com/lusteng/vue-yanxuan/tree/master/images/index.gif)
-![image](https://github.com/lusteng/vue-yanxuan/tree/master/images/index1.gif)
-![image](https://github.com/lusteng/vue-yanxuan/tree/master/images/detail.gif)
-![image](https://github.com/lusteng/vue-yanxuan/tree/master/images/catelist.gif)
-![image](https://github.com/lusteng/vue-yanxuan/tree/master/images/items.gif)
-![image](https://github.com/lusteng/vue-yanxuan/tree/master/images/topic.gif)
+### 部分页面截图
 
-
+<img src="http://www.liubaitong.com/storage/images/index.gif" width="375" height="465"/>
+<img src="http://www.liubaitong.com/storage/images/index1.gif" width="375" height="465"/>
+<img src="http://www.liubaitong.com/storage/images/detail.gif" width="375" height="465"/>
+<img src="http://www.liubaitong.com/storage/images/catelist.gif" width="375" height="465"/>
+<img src="http://www.liubaitong.com/storage/images/items.gif" width="375" height="465"/>
+<img src="http://www.liubaitong.com/storage/images/topic.gif" width="375" height="465"/> 
 
 ### 目录结构
 
