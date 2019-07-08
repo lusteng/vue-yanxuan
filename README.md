@@ -28,12 +28,11 @@ npm run serve
 
 ### 部分页面截图
 
-<img src="http://www.liubaitong.com/storage/images/index.gif" width="375" height="465"/>
-<img src="http://www.liubaitong.com/storage/images/index1.gif" width="375" height="465"/>
-<img src="http://www.liubaitong.com/storage/images/detail.gif" width="375" height="465"/>
-<img src="http://www.liubaitong.com/storage/images/catelist.gif" width="375" height="465"/>
-<img src="http://www.liubaitong.com/storage/images/items.gif" width="375" height="465"/>
-<img src="http://www.liubaitong.com/storage/images/topic.gif" width="375" height="465"/> 
+<img src="http://www.liubaitong.com/storage/images/index.gif" width="375" height="465"/>  <img src="http://www.liubaitong.com/storage/images/index1.gif" width="375" height="465"/>
+
+<img src="http://www.liubaitong.com/storage/images/detail.gif" width="375" height="465"/>  <img src="http://www.liubaitong.com/storage/images/catelist.gif" width="375" height="465"/>  
+
+<img src="http://www.liubaitong.com/storage/images/items.gif" width="375" height="465"/>  <img src="http://www.liubaitong.com/storage/images/topic.gif" width="375" height="465"/> 
 
 ### 目录结构
 
