@@ -24,7 +24,7 @@
                 >
                     <!-- TODO：礼品 超级会员页面 -->
                     <router-link :to="`/item/${item.sequen > 8 ? '' : item.sequen}`">
-                        <img v-lazy="item.picUrl" />
+                        <img v-lazy="item.picUrl" :key="item.picUrl"/>
                         <p class="yx-channle-name">
                             {{item.name}}
                         </p> 
