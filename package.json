@@ -20,7 +20,7 @@
     "postcss-import": "^12.0.1",
     "postcss-px-to-viewport": "0.0.3",
     "postcss-url": "^8.0.0",
-    "postcss-viewport-units": "^0.1.6", 
+    "postcss-viewport-units": "^0.1.6",
     "postcss-zindex": "^4.0.1",
     "vant": "^1.6.5",
     "vue": "^2.5.21",
@@ -41,9 +41,10 @@
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
     "mockjs": "^1.0.1-beta3",
-    "node-sass": "^4.9.0", 
+    "node-sass": "^4.9.0",
     "postcss-write-svg": "^3.0.1",
     "sass-loader": "^7.0.1",
+    "sass-resources-loader": "^2.0.1",
     "vue-template-compiler": "^2.5.21"
   }
 }

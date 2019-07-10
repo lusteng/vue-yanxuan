@@ -34,13 +34,12 @@ export default {
 }
 </script>
 
-<style lang="scss">
-    @import '~@/assets/css/mixin'; 
+<style lang="scss"> 
     .notBg{
         height: 100%;
     } 
     body.notBg{
-        background: url('https://yanxuan.nosdn.127.net/15282710800804764.png');
+        background: url('https://yanxuan.nosdn.127.net/15282710800804764.png'); 
     }    
     .yx-not{
         height: 100%;

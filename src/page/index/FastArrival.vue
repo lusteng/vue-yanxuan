@@ -20,14 +20,12 @@
 <script>
 import {mapGetters} from 'vuex'
 import ProductShowContainer from '@/components/common/ProductShowContainer'
-import ProductTag from '@/components/common/ProductTag'
 import ProductCard from '@/components/common/ProductCard'
 export default {
     name: "FastArrival",
     components: { 
         ProductShowContainer,
         ProductCard,
-        ProductTag
     },
     computed: {
         ...mapGetters(['arrivals'])

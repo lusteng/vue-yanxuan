@@ -19,7 +19,22 @@ module.exports = {
             .set('layout',resolve('src/layout'))
             .set('base',resolve('src/base'))
             .set('static',resolve('static'))
+        
+        const oneOfsMap = config.module.rule('scss').oneOfs.store
+        oneOfsMap.forEach(item => {
+            item
+            .use('sass-resources-loader')
+            .loader('sass-resources-loader')
+            .options({
+                // Provide path to the file with resources
+                resources: './path/to/resources.scss',
+    
+                // Or array of paths
+                resources: [resolve('src/assets/css/mixin.scss'), resolve('src/assets/css/reset.scss')]
+            })
+            .end()
+        }) 
     }, 
-
+    
 }
  

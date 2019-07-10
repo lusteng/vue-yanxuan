@@ -32,14 +32,12 @@
 <script>
 import {mapGetters} from 'vuex'
 import ProductShowContainer from '@/components/common/ProductShowContainer'
-import ProductTag from '@/components/common/ProductTag'
 import ProductCard from '@/components/common/ProductCard'
 export default {
     name: "PopularRecommend",
     components: { 
         ProductShowContainer,
-        ProductCard,
-        ProductTag
+        ProductCard 
     },
     computed: {
         ...mapGetters(['populars'])
