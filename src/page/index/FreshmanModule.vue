@@ -68,8 +68,7 @@
     }
 </script>
 
-<style lang="scss" scoped>
-    @import '~@/assets/css/mixin';
+<style lang="scss" scoped> 
 
     @mixin fontStyle{
         @include blackFont(16px);

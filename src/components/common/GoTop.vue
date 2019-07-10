@@ -70,15 +70,14 @@ export default {
 }
 </script>
 
-<style lang="scss">
-    @import '~@/assets/css/mixin';
+<style lang="scss"> 
     $boxSize : 40px;
     .goTop{
         width: $boxSize;
         height: $boxSize;
         border-radius: 50%;
         background:rgba(255,255,255,.8); 
-        border: .5px solid rgba(217, 217, 217, .5);
+        box-shadow: 0 0 2px rgba(217, 217, 217, .5);
         position: fixed;
         right : 11px;
         bottom: 60px;

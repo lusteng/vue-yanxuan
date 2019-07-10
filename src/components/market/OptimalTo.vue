@@ -37,8 +37,7 @@ export default {
 }
 </script>
 
-<style lang="scss">  
-    @import '~@/assets/css/mixin'; 
+<style lang="scss">   
     .t-item{
         padding: 18px 15px;
         margin: 10px 0 10px;

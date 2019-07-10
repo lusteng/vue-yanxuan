@@ -25,8 +25,7 @@
     }
 </script>
 
-<style lang="scss">
-    @import '~@/assets/css/mixin';
+<style lang="scss"> 
     .buyFooterWrap{
         height: 52px;
     }

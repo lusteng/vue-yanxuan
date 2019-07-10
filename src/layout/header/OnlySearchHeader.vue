@@ -21,8 +21,7 @@ export default {
 </script>
 
 
-<style lang="scss" scoped> 
-    @import '~@/assets/css/mixin'; 
+<style lang="scss" scoped>  
     .yx-search-box{ 
         background: $white;
         padding: 10px 15px;

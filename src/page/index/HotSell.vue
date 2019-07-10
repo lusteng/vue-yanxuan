@@ -61,8 +61,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-    @import '~@/assets/css/mixin';
+<style lang="scss" scoped> 
     $blockSpace : 0px;
     .hotSell{ 
         ul{   

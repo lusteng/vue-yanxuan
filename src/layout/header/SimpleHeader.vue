@@ -32,8 +32,7 @@ export default {
 </script>
 
 
-<style lang="scss">
-    @import '~@/assets/css/mixin';
+<style lang="scss"> 
     $headHight: 44px;
     .simpleHeadWrap{
         height: $headHight + 1; 

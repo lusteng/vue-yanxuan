@@ -55,8 +55,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-@import '~@/assets/css/mixin'; 
+<style lang="scss" scoped> 
 .yx-guess{ 
     background: $white; 
     .yx-guess-list{ 

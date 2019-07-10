@@ -156,8 +156,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
-@import '~@/assets/css/mixin';
+<style lang="scss"> 
 $lfSpace: 20px; 
 $tilPaddingBottom: 4px;
 $imgSize: 72px;

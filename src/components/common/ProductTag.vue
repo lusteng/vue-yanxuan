@@ -41,8 +41,7 @@ export default {
 </script>
 
 
-<style lang="scss">
-    @import '~@/assets/css/mixin';
+<style lang="scss"> 
     $paddingSize: 4px;
     $paddingSize-lg: 8px;
     .product-tag{

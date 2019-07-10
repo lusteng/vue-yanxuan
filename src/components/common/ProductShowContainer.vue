@@ -35,8 +35,7 @@
     }
  </script>
 
-<style lang="scss" scoped>
-    @import '~@/assets/css/mixin';
+<style lang="scss" scoped> 
     .yx-showcase-container{
         margin-bottom: 10px;
         padding: 0 15px;

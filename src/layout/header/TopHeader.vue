@@ -28,8 +28,7 @@
 
 </script>
 
-<style lang="scss">
-    @import '~@/assets/css/mixin';
+<style lang="scss"> 
     .headWrap{
         height: 44px;
     }

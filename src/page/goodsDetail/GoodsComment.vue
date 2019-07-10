@@ -45,8 +45,7 @@ export default {
 }
 </script>
 
-<style lang="scss"> 
-    @import '~@/assets/css/mixin'; 
+<style lang="scss">  
     .gc-box{
         .gc-head, .gc-detail{
             padding:0 15px;

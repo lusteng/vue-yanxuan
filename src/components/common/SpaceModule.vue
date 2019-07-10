@@ -14,8 +14,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
-@import '~@/assets/css/mixin'; 
+<style lang="scss"> 
 .yx-space{
     margin-top: 10px;
     background: $white;

@@ -67,8 +67,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
-@import '~@/assets/css/mixin';  
+<style lang="scss"> 
 .yx-comment{
     border-top: 1px solid $gray;
     padding-bottom: 5px;

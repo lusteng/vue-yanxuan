@@ -136,8 +136,7 @@ export default {
  }
  </script>
 
- <style lang="scss">
-    @import '~@/assets/css/mixin'; 
+ <style lang="scss"> 
     .yx-search{ 
         .yx-search-box,
         .yx-search-history,

@@ -48,8 +48,7 @@
     }
 </script>
 
-<style lang="scss" scoped>
-    @import '~@/assets/css/mixin';
+<style lang="scss" scoped> 
     .shoppingChannle{
         background: $white;
     }

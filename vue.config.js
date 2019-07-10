@@ -25,12 +25,12 @@ module.exports = {
             item
             .use('sass-resources-loader')
             .loader('sass-resources-loader')
-            .options({
-                // Provide path to the file with resources
-                resources: './path/to/resources.scss',
-    
+            .options({ 
                 // Or array of paths
-                resources: [resolve('src/assets/css/mixin.scss'), resolve('src/assets/css/reset.scss')]
+                resources: [
+                    resolve('src/assets/css/mixin.scss'), 
+                    resolve('src/assets/css/reset.scss')
+                ]
             })
             .end()
         }) 

@@ -32,8 +32,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-@import '~@/assets/css/mixin';  
+<style lang="scss" scoped>  
 .ga-box{
     background: $white;
     padding: 16px;

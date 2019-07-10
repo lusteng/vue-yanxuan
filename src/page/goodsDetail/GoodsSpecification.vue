@@ -76,8 +76,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
-    @import '~@/assets/css/mixin'; 
+<style lang="scss"> 
     .spec-item{
         display: flex;
         line-height: 52px;

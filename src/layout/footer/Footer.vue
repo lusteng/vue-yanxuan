@@ -48,8 +48,7 @@
     }
 </script>
 
-<style lang="scss">
-    @import '~@/assets/css/mixin';
+<style lang="scss"> 
     .footerWrap{
         height: 48px;
     }

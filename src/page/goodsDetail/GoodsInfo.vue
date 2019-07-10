@@ -122,8 +122,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-    @import '~@/assets/css/mixin'; 
+<style lang="scss" scoped> 
     .goods-banner{
         position: relative;
         height: 375px;
