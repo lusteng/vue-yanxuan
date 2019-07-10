@@ -74,12 +74,14 @@
             li{
                 width: 20%;
                 padding: 5px 10px 4.5px;
-                a{
-                    @include block(100%, 100%);
+                a{ 
+                    display: inline-block;
+                    width: 100%;
+                    height: 55px;
                 }
                 img{
                     width: 100%;
-                    height: 55px;
+                    height: 100%;
                 }
                 .yx-channle-name{
                     @include block(100%, 18px);

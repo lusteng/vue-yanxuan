@@ -2,7 +2,7 @@
     <div>
         <SimpleHeader />  
         <div class="yx-marketdesc" v-html="marketDescHtml"> 
-        </div>
+        </div> 
     </div>
 </template>
 
@@ -28,13 +28,16 @@
 
 <style lang="scss">
     .yx-marketdesc{
-        .p2p-imgContent{
-            height: auto!important;
+        .p2p-imgContent{ 
+            clear: both;
+            content:""; 
+            display: block;  
         }
-        img, .u-link{
-            width: 375px!important;
-            vertical-align: middle;
-            height: auto!important;
+        img{
+            display: block;  
+        }
+        img, .u-link{ 
+            vertical-align: middle; 
         }
     }
 </style>
