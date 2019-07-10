@@ -1,5 +1,5 @@
 <template>
-    <div class="goTop" v-show="visible" @touchstart="goTop">
+    <div class="goTop" v-show="visible" @click="goTop">
         <i class="iconfont icon-shangla"></i>
     </div>
 </template>

@@ -13,6 +13,7 @@
     "better-scroll": "^1.15.1",
     "cssnano": "^4.1.8",
     "cssnano-preset-advanced": "^4.0.6",
+    "fastclick": "^1.0.6",
     "moment": "^2.24.0",
     "postcss-aspect-ratio-mini": "^1.0.1",
     "postcss-cssnext": "^3.1.0",

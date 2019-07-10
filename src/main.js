@@ -9,7 +9,10 @@ import store from "./store/";
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import 'swiper/dist/css/swiper.css'
 import { Toast, Lazyload, Rate, List,  } from 'vant'
-import 'vant/lib/index.css' 
+import 'vant/lib/index.css'
+
+import Fastclick from 'fastclick'
+Fastclick.attach(document.body); 
 
 Vue.use(VueAwesomeSwiper)
   .use(Lazyload, {

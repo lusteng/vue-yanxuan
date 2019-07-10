@@ -15,20 +15,20 @@
         </div>    
         <div :class="{dropNavWrap: true, showCateDropdown}">
             <div class="shadowMask"></div>
-            <div class="dropIcon" @touchstart="handleToggleNav">
+            <div class="dropIcon" @click="handleToggleNav">
                 <i class="iconfont icon-xiala"></i>
             </div>
         </div>
         <div v-show="showCateDropdown" class="cates">
             <p class="cateDropTil">全部频道</p>
-            <router-link 
-                :to="index == 0 ? '/' : `/item/${index}`"
+            <span  
                 v-for="(item, index) in topNavOptions"
                 :key="index"
                 :class="{'cateTag': true, active: navSelected == index}"
-            >{{item.name}}</router-link>
+                @click="handleSkipTag(index)"    
+            >{{item.name}}</span>
         </div>
-        <div  v-show="showCateDropdown" class="cateMask" @touchstart="handleToggleNav"></div>
+        <div  v-show="showCateDropdown" class="cateMask" @click="handleToggleNav"></div>
     </section>    
 </template>
 
@@ -59,6 +59,11 @@ export default {
         }
     },
     methods: {
+        handleSkipTag(index){
+            let path = index == 0 ? '/' : `/item/${index}`; 
+            this.showCateDropdown = false
+            this.$router.push({path})
+        },
         handleToggleNav(){
             this.showCateDropdown = !this.showCateDropdown; 
         }

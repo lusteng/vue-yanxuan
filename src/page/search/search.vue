@@ -5,7 +5,7 @@
                 <i class="iconfont icon-sousuo-copy"></i>
                 <input type="text" @keyup="handleSearch" :placeholder="`${search_kd.defaultKeyword && search_kd.defaultKeyword.keyword}`"/>
             </div> 
-            <span class="fr yx-search-cancel" @touchend="handleGoBack">取消</span>
+            <span class="fr yx-search-cancel" @click="handleGoBack">取消</span>
         </div>
         <div v-show="relateSearchList.length === 0"> 
             <div 
@@ -14,7 +14,7 @@
             >    
                 <div class="yx-search-delete yx-search-til clearfix">
                     <span class="fl">历史记录</span>
-                    <i class="iconfont icon-shanchu fr" @touchend="handleCancelHistory"></i>
+                    <i class="iconfont icon-shanchu fr" @click="handleCancelHistory"></i>
                 </div>
                 <div> 
                     <router-link
@@ -65,7 +65,7 @@
                 class="inner" 
                 v-for="(item, index) in relateSearchList" 
                 :key="index"
-                @touchend="handleSkiptoSearch(item)" 
+                @click="handleSkiptoSearch(item)" 
             >{{item}}</div>
         </div>
      </div>

@@ -9,7 +9,7 @@
                             :class="{'ct-nav' : true, 'active' : curRightIndex === index}" 
                             v-for="(item, index) in cateLists.nav" 
                             :key="index"
-                            @touchend="handleChangeLeftNav(index)"
+                            @click="handleChangeLeftNav(index)"
                         >{{item.name}}</div>    
                     </div>
                 </div>

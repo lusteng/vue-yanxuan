@@ -19,7 +19,7 @@
                     :key="index"
                     :type="tagCurrent == index ? 'default' : 'disabled'"
                     size="lg"
-                    @touchend.native="handleRequestComment(index, tag.name)"
+                    @click.native="handleRequestComment(index, tag.name)"
                     class="tg"
                 >{{tag.name}}({{tag.strCount}})</ProductTag>
             </div> 
