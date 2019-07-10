@@ -3,6 +3,13 @@
 适配多种设备视口是移动端所面对的场景，之前开发项目中多采用rem、media查询、flex百分比等布局，最近研究vw(视口单位)实现适配布局过程中，决定采用vue写仿网易严选项目练习下
 - - -
 注：讲解几种适配大法比较好的文章[https://juejin.im/post/5bc07ebf6fb9a05d026119a9]  
+
+### 关于1px解决方案
+摒弃传统内阴影，伪类 + transform， img背景border等方案，采用[postcss-write-svg](https://github.com/jonathantneal/postcss-write-svg)方案
+
+### 关于兼容
+由于精力有限，只测试了vivo、6p、xr机型部分浏览器。由于vw针对视口逐步放大，暂未解决pc下字体和盒子元素过大的问题
+
 #### 关于后端
 本来打算用node + mongodb开发个简单后台，奈何业余时间不足，打算留待后续有精力再开发。目前开发环境采用简单mock数据，目前跟登录、购物相关页面暂未开发
 
@@ -88,7 +95,7 @@ npm run serve
 ├── static                              //静态资源
 |  └── img 
 ├── tests    
-├── postcss.config.js                   //配置vw文件  
+├── .postcssrc.js                   //配置vw文件  
 .
 . 
 
