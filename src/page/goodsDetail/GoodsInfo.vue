@@ -106,8 +106,11 @@ export default {
                     type: 'fraction'
                 }, 
                 on: {
-                    slideChangeTransitionEnd(){
-                        _this.refreshSlideCurrent(this.activeIndex)
+                    slideChangeTransitionEnd(){ 
+                        let  
+                            tol = _this.banner.length,
+                            current = this.activeIndex % tol
+                        _this.refreshSlideCurrent(current || tol)
                     },
                 },
             }, 
@@ -115,7 +118,7 @@ export default {
         }
     }, 
     methods:{ 
-        refreshSlideCurrent(activeIndex){ 
+        refreshSlideCurrent(activeIndex){  
             this.slideCurrent = activeIndex
         }
     }
@@ -129,9 +132,11 @@ export default {
         .swiper-container {
             height: 100%;
         }
-        .slide-pager{
-            @include block(27px, 16px);
+        .slide-pager{ 
             font-size: 12px;
+            display: inline-block;
+            padding: 0 3px;
+            height: 16px;
             line-height: 16px;
             position: absolute;
             right: 15px;
