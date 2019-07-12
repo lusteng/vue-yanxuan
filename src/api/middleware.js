@@ -6,7 +6,8 @@ import { Toast } from 'vant'
 
 const BaseMessage = "服务器开小差了，请重试！";
 //设置baseURI
-// axios.defaults.baseURL = './../mock/'; 
+// axios.defaults.baseURL = 'http://www.liubaitong.com/mock/'; 
+axios.defaults.baseURL = '../mock/'; 
 
 //axios request 拦截器
 // axios.interceptors.request.use(
