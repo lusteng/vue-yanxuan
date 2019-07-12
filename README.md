@@ -8,13 +8,13 @@
 由于精力有限，只测试了vivo、6p、xr机型部分浏览器。由于vw针对视口逐步放大，暂未解决pc下字体和盒子元素过大的问题
 
 #### 关于后端
-本来打算用node + mongodb开发个简单后台，奈何业余时间不足，打算留待后续有精力再开发。目前开发环境采用简单mock数据，目前跟登录、购物相关页面暂未开发
+暂未开发后台，留待以后开发node + mongodb的简单后台。开发环境采用简单mock数据，生产环境采用axios请求固定数据源。目前跟登录、购物相关页面暂未开发
 
 ### 技术栈
 vue2 + vuex + vue-router + webpack + ES6 + axios + sass   
 
 ### 运行
-```~
+```
 git clone https://github.com/lusteng/vue-yanxuan.git  
 
 cd vue-yanxuan
