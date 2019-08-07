@@ -21,41 +21,55 @@ export function shuffle(arr){
 } 
 
 //节流 降低事件执行频率 提高高频触发场景性能 
-export function throttle(fn, threshhold = 200){ 
+export function throttle(fn, interval = 300, immediate = false){
     let 
-        starTime = new Date() - 0,
         timeout,
-        run = true 
+        st = 0 
         
-    return function(){ 
-        let 
-            _this = this,
-            arg = arguments,
-            nowTime = new Date() - 0 
-        clearTimeout(timeout)       
-        if(nowTime - starTime >= threshhold){
-            // 超过阈值，执行
-            fn.apply(_this, arg)
-            starTime = nowTime
-        }else{
-            // 最后一次执行
-            timeout = setTimeout(() => {
-                fn.apply(_this, arg)
-            }, threshhold)
-        } 
-    } 
-}
+    return function () {
+        let _context = this,
+            args = arguments  
+
+        if(immediate){ //时间段开头执行
+            let nt = + new Date(); 
+            if(nt - st > interval){ 
+                fn.apply(_context, args)
+                st = nt
+            }            
+        }else{ //时间段末位执行
+            if(!timeout){
+                timeout = setTimeout(() => {
+                    fn.apply(_context, args)
+                    timeout = null
+                }, interval)
+            }
+
+        }
+    }
+} 
 
 //防抖 限制规定时间内才能继续执行事件，常用场景请求后端接口
-export function debounce(fn, delay = 400){
-    let startTime = new Date() - 0 
-    return function(){
-        let nowTime = new Date() - 0,
-            _this = this,
-            arg = arguments  
-        if(nowTime - startTime > 0){ 
-            fn.apply(_this, arg) 
-            startTime = new Date() - 0 + delay
+export function  debounce(fn, wait = 1000, immediate = false){
+    let timeout 
+    
+    return function(){ 
+        let _context = this,
+            arg = arguments
+
+        timeout && clearTimeout(timeout)  //清楚上次执行
+
+        if(immediate){ //立即执行 
+            let canRun = !timeout
+            //wait时间后timeout为空，fn可再次执行
+            timeout = setTimeout(() => {  
+                timeout = null
+            }, wait)
+
+            canRun && fn.apply(_context, arg)
+        }else{ 
+            timeout = setTimeout(() => {
+                fn.apply(_context, arg)
+            }, wait)
         }
     }
 } 

@@ -107,24 +107,21 @@ export default {
                 query: {keyword: kw}
             })
         },
-        handleSearch(e){
+        handleSearch : throttle(function(e){
             const _this = this,
-               keywords = e.target.value;
-            if(keywords){ 
-                const search = () => {
-                    let 
-                        arrLen = 8,
-                        randomArr = new Array(Math.ceil(Math.random() * arrLen)).fill(`\\u${(Math.round(Math.random() * 20901) + 19968).toString(16)}`);
+               keywords = e.target.value; 
+            if(keywords){  
+                let 
+                    arrLen = 8,
+                    randomArr = new Array(Math.ceil(Math.random() * arrLen)).fill(`\\u${(Math.round(Math.random() * 20901) + 19968).toString(16)}`);
 
-                    _this.relateSearchList = randomArr.map(item => {     
-                        return `${keywords}${item}`
-                    })  
-                }
-                throttle(search, 100)()  
+                _this.relateSearchList = randomArr.map(item => {     
+                    return `${keywords}${item}`
+                })   
             }else{
                 _this.relateSearchList = []
             }
-        },
+        }),
         handleGoBack(){
             this.$router.go(-1)
         },
