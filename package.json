@@ -42,7 +42,7 @@
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
     "mockjs": "^1.0.1-beta3",
-    "node-sass": "^4.9.0",
+    "node-sass": "^4.13.1",
     "postcss-write-svg": "^3.0.1",
     "sass-loader": "^7.0.1",
     "sass-resources-loader": "^2.0.1",
